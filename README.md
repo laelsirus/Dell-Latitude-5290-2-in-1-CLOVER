@@ -127,7 +127,7 @@
 ## Issues
 - If USB device is connected to Full size USB port with power connected state, it wakes up immediately after sleeping.  
   Fixed after Full size USB port as internal port  
-  As a result, if you connect a 3.0 device to the USB, it will be recognized as an internal disk icon.
+  As a result, if you connect a device above USB 3.0 to the Full size USB port, it will be recognized as an internal disk icon.
 
 - When the battery is in use, the disk not ejected properly after sleeping  
 Fixed with SafeSleepUSB.app or Jettison.app
