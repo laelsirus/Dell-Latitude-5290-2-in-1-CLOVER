@@ -76,7 +76,7 @@
 
 **What Works**
 
-	*Graphics/Display*
+***Graphics/Display***
 - Intel® UHD Graphics 620 QE/CI, 2048MB Vram
 - Type C DP 2 ports Video / Audio output Hot Swap
 - Brightness control
