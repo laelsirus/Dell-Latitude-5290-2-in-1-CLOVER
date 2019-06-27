@@ -125,25 +125,25 @@
 
 
 ## Issues
-- If power is connected and the device is connected to Full size USB, it wakes up immediately after sleeping.
-Fixed after designating the port as internal port
-As a result, if you connect a 3.0 device to the USB, it will be recognized as an internal disk icon.
+- If power is connected and the device is connected to Full size USB, it wakes up immediately after sleeping.  
+  Fixed after Full size USB port as internal port  
+  As a result, if you connect a 3.0 device to the USB, it will be recognized as an internal disk icon.
 
-- When the battery is in use, the disk not ejected properly after sleeping
+- When the battery is in use, the disk not ejected properly after sleeping  
 Fixed with SafeSleepUSB.app or Jettison.app
 
 - WWAN card, LTE available as USIM but not tested yet
 
-- MicroSD slot not working properly
-If you use Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are still some problems
+- MicroSD slot not working properly  
+  If you use Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are still some problems
 
 - PCIE front and rear camera (AVStream2500, OV series camera) not recognized
 
 - Compared to Windows, White Noise occurs a little on speakers
 
-- In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized and suddenly recognized after specific setup / injection event after personal setting
-Once recognized, the touch screen will not be lost
-After recognizing the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
+- In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized and suddenly recognized after specific setup / injection event after personal setting  
+  Once recognized, the touch screen will not be lost  
+  After recognized the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
 
 ## Screenshots
 
