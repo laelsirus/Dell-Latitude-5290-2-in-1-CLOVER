@@ -1,7 +1,8 @@
 # Dell-Latitude-5290-2-in-1-Clover
 Clover Files for Dell Latitude 5290 2-in-1 to boot macOS
 
-**Specifics** 
+**Specifics**
+
 CPU : Intel® Core™ i5-8350U Processor (6M Cache, up to 3.60 GHz)
 
 GRAPHIC : Intel® UHD Graphics 620
