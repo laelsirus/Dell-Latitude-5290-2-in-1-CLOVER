@@ -139,7 +139,7 @@
 
 - PCIE front and rear camera (AVStream2500, OV series camera) not recognized
 
-- Compared to Windows, White Noise occurs a little on speakers
+- Compared to Windows, white noise occurs a little on speakers
 
 - In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized and suddenly recognized after specific setup / injection event after personal setting  
   Once recognized, the touch screen will not be lost  
