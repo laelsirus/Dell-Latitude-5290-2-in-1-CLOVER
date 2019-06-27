@@ -14,10 +14,11 @@
 - WINDOWS 10 PRO
 
 
-**Bios/Clover Bootloader Version**
+**Bios/Clover Bootloader/macOS Version**
 
 - Bios : 1.7.3
 - Clover Bootloader : v2.4k r4920 (or Higher)
+- macOS : Above 10.14
 
 
 **Bios Setup**
@@ -75,36 +76,36 @@
 
 **What Works**
 
-*Graphics/Display*
+	*Graphics/Display*
 - Intel® UHD Graphics 620 QE/CI, 2048MB Vram
 - Type C DP 2 ports Video / Audio output Hot Swap
 - Brightness control
 - Lid Close Sleep with Magnetic Travel Keyboard
 - I2C touch screen Up to 4 points Gesture action (recognized as Magic Trackpad 2)
 
-*Audio*
+	*Audio*
 - Built-in speaker
 - Built-in microphone
 - Line input
 - DP Audio Output
 
-*Input*
+	*Input*
 - I2C touch screen Up to 4 points Gesture action (recognized as Magic Trackpad 2)
 - I2C Keyboard (Magnetic Travel Keyboard) with Backlight
 - Touchpad (Magnetic Travel Keyboard, recognized as mouse)
 - Volume button, window button, power button
 
-*Power Management*
+	*Power Management*
 - CPU/Speed Step
 - Battery
 - Type C PD 2 Ports Charging
 - Sleep/Wake
 
-*Storage Device*
+	*Storage Device*
 - Full Size/ Type C USB 2.0, 3.0 Hot Swap
 - m.2 NVME 2280/ m.2 SATA 2280 1 Slot and m.2 NVME 2230(2242)/ m.2 SATA 2230(2242) 1 Slot
 
-*Wireless communication*
+	*Wireless communication*
 - iMessage/FaceTime/App Store
 - Wi-Fi, Bluetooth, Airdrop, Continuity with macOS compatible wireless card
 
