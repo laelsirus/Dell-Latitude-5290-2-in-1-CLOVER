@@ -1,6 +1,6 @@
 # Dell-Latitude-5290-2-in-1-Clover
 
-**Specifics**
+## Specifics
 
 - CPU : Intel® Core™ i5-8350U Processor (6M Cache, up to 3.60 GHz)
 - GRAPHIC : Intel® UHD Graphics 620
@@ -14,19 +14,19 @@
 - WINDOWS 10 PRO
 
 
-**Bios/Clover Bootloader/macOS Version**
+## Bios/Clover Bootloader/macOS Version
 
 - Bios : 1.7.3
 - Clover Bootloader : v2.4k r4920 (or Higher)
 - macOS : Above 10.14
 
 
-**Bios Setup**
+## Bios Setup
 
 - Load Optimized Defaults
 
 
-**DSDT Patch**
+## DSDT Patch
 
 - [misc] Remove _PRW from LID
 - [sys] AC Adapter Fix
@@ -44,7 +44,7 @@
 - [GPIO] GPIO Controller Enable [SKL+]
 
 
-**Drivers64UEFI**
+## Drivers64UEFI
 
 - ApfsDriverLoader-64.efi
 - AptioMemoryFix-64.efi
@@ -53,7 +53,7 @@
 - VirtualSmc.efi
 
 
-**Kexts**
+## Kexts
 
 - AirportBrcmFixup.kext
 - AppleALC.kext
@@ -74,7 +74,7 @@
 - WhateverGreen.kext
 
 
-**What Works**
+## What Works
 
 ***Graphics/Display***
 - Intel® UHD Graphics 620 QE/CI, 2048MB Vram
@@ -110,7 +110,7 @@
 - Wi-Fi, Bluetooth, Airdrop, Continuity with macOS compatible wireless card
 
 
-**Issues**
+## Issues
 - If power is connected and the device is connected to Full size USB, it wakes up immediately after sleeping.
 Fixed after designating the port as internal port
 As a result, if you connect a 3.0 device to the USB, it will be recognized as an internal disk icon.
