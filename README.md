@@ -1,4 +1,4 @@
-#  Dell Latitude 5290 2-in-1 CLOVER
+#  CLOVER Files for Dell Latitude 5290 2-in-1 UHD620 iGPU to boot macOS
 
 ## Specifics
 
