@@ -1,4 +1,4 @@
-# Dell-Latitude-5290-2-in-1-Clover
+#  Dell Latitude 5290 2-in-1 CLOVER
 
 ## Specifics
 
