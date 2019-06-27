@@ -80,9 +80,9 @@
 - This build is suitable for 'Dell Latitude 5290 2-in-1' system uses the iGPU of 'Intel UHD Graphics 620'
 
 ***After installation***
-- Remove these boot flags
-  -v
-  debug=0x100
+- Remove these boot flags  
+  -v  
+  debug=0x100  
   keepsyms=1
 - Additional patches are required for iMessage and Facetime activation 
 
