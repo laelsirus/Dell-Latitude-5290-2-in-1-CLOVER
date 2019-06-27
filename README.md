@@ -82,7 +82,7 @@
 - Line input
 - DP Audio Output
 
-*input*
+*Input*
 - I2C touch screen Up to 4 points Gesture action (recognized as Magic Trackpad 2)
 - I2C Keyboard (Magnetic Travel Keyboard) with Backlight
 - Touchpad (Magnetic Travel Keyboard, recognized as mouse)
@@ -102,3 +102,25 @@
 - iMessage/FaceTime/App Store
 - Wi-Fi, Bluetooth, Airdrop, Continuity with macOS compatible wireless card
 
+    **Issues**
+- If power is connected and the device is connected to Full size USB, it wakes up immediately after sleeping.
+Fixed after designating the port as internal port
+As a result, if you connect a 3.0 device to the USB, it will be recognized as an internal disk icon.
+
+- When the battery is in use, the disk not ejected properly after sleeping
+Fixed with SafeSleepUSB.app or Jettison.app
+
+- WWAN card, LTE available as USIM but not tested yet
+
+- MicroSD slot not working properly
+If you use Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are still some problems
+
+- PCIE front and rear camera (AVStream2500, OV series camera) not recognized
+
+- In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized and suddenly recognized after specific setup / injection event after personal setting
+
+Once recognized, the touch screen will not be lost
+
+After recognizing the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
+
+- Compared to Windows, White Noise occurs a little on speakers
