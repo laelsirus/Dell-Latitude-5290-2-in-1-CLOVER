@@ -124,10 +124,8 @@ If you use Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are
 
 - PCIE front and rear camera (AVStream2500, OV series camera) not recognized
 
-- In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized and suddenly recognized after specific setup / injection event after personal setting
-
-Once recognized, the touch screen will not be lost
-
-After recognizing the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
-
 - Compared to Windows, White Noise occurs a little on speakers
+
+- In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized and suddenly recognized after specific setup / injection event after personal setting
+Once recognized, the touch screen will not be lost
+After recognizing the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
