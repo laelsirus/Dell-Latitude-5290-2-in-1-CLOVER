@@ -130,12 +130,12 @@
   As a result, if you connect a device above USB 3.0 to the Full size USB port, it will be recognized as an internal disk icon.
 
 - When the battery is in use, the disk not ejected properly after sleeping  
-Fixed with SafeSleepUSB.app or Jettison.app
+  Fixed with SafeSleepUSB.app or Jettison.app
 
-- WWAN card, LTE available as USIM but not tested yet
+- WWAN communication via WWAN card, USIM, and Legacy_Sierra_QMI.kext is feasible, but has not been tried yet.
 
 - MicroSD slot not working properly  
-  If you use Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are still some problems
+  If you use modified Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are still some problems
 
 - PCIE front and rear camera (AVStream2500, OV series camera) not recognized
 
