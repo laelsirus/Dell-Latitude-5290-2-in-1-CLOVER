@@ -76,6 +76,9 @@
 
 ## ETC
 
+***Intel UHD Graphics 620***
+- This build is suitable for 'Dell Latitude 5290 2-in-1' systems using the internal graphics of 'Intel UHD Graphics 620'
+
 ***Remove these boot flags after installation***
 - -v
 - debug=0x100
