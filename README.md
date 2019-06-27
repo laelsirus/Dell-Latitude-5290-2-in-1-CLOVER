@@ -139,7 +139,7 @@
 
 - DW1830(BCM943602BAED) - VenderID : 0489, ProductID : E0A1, Firmware Version:v5 c4510 (v5 c4096)  
   Issues 1 : Bluetooth not works after sleep  
-  Issues 2 : If check 'Wake for Wi-Fi network access', wifi speed will be very slow.
+  Issues 2 : If check 'Wake for Wi-Fi network access', wifi speed will be very slow after sleep.
 
 - MicroSD slot not working properly  
   If you use modified Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are still some problems
