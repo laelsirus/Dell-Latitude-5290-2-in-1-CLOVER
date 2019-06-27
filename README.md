@@ -131,6 +131,8 @@ If you use Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are
 Once recognized, the touch screen will not be lost
 After recognizing the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
 
+## Screenshots
+
 ![01SystemOverview](./images/01SystemOverview.png)
 
 ![02SystemDisplay](./images/02SystemDisplay.png)
