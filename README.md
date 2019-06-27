@@ -74,6 +74,14 @@
 - WhateverGreen.kext
 
 
+## ETC
+
+***Remove these boot flags after installation***
+- -v
+- debug=0x100
+- keepsyms=1
+
+
 ## What Works
 
 ***Graphics/Display***
