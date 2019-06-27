@@ -133,7 +133,7 @@ After recognizing the touch screen, the touch pad of the Magnetic Travel Keyboar
 
 ## Screenshots
 
-![01SystemOverview](https://user-images.githubusercontent.com/46496967/60283629-9b123b80-9944-11e9-94e9-2b414446f551.png)
+![01SystemOverview](https://user-images.githubusercontent.com/46496967/60284881-9ac76f80-9947-11e9-9127-c1dde7dc62b0.png)
 
 ![02SystemDisplay](https://user-images.githubusercontent.com/46496967/60283632-9cdbff00-9944-11e9-88d5-adb758d4b514.png)
 
