@@ -145,6 +145,8 @@
   Once recognized, the touch screen will not be lost  
   After recognized the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
 
+- HiDPI not works through known method
+
 ## Screenshots
 
 ![01SystemOverview](https://user-images.githubusercontent.com/46496967/60284881-9ac76f80-9947-11e9-9127-c1dde7dc62b0.png)
