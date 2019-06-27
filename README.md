@@ -81,9 +81,9 @@
 
 ***After installation***
 - Remove these boot flags  
-  -v  
-  debug=0x100  
-  keepsyms=1
+    -v  
+    debug=0x100  
+    keepsyms=1
 - Additional patches are required for iMessage and Facetime activation 
 
 
