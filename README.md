@@ -78,7 +78,7 @@
 
 ***Intel UHD Graphics 620***
 - This build is suitable for 'Dell Latitude 5290 2-in-1' system uses iGPU of 'Intel UHD Graphics 620'  
-  If your internal graphics is not 'Intel UHD Graphics 620', additional graphics patches might be required
+  If your iGPU is not 'Intel UHD Graphics 620', additional graphics patches might be required
 
 ***After installation***
 - Remove these boot flags  
