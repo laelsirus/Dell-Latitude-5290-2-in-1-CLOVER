@@ -132,10 +132,17 @@ Once recognized, the touch screen will not be lost
 After recognizing the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
 
 ![01SystemOverview](./images/01SystemOverview.png)
+
 ![02SystemDisplay](./images/02SystemDisplay.png)
+
 ![03VideoProc](./images/03VideoProc.png)
+
 ![04IntelPowerGadget](./images/04IntelPowerGadget.png)
+
 ![05Geekbench_CPU](./images/05Geekbench_CPU.png)
+
 ![06Geekbench_GPU](./images/06Geekbench_GPU.png)
+
 ![07USBOrigin](./images/07USBOrigin.png)
+
 ![08USBEdit](./images/08USBEdit.png)
