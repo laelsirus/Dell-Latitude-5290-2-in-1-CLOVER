@@ -133,18 +133,18 @@ After recognizing the touch screen, the touch pad of the Magnetic Travel Keyboar
 
 ## Screenshots
 
-![01SystemOverview](./images/01SystemOverview.png)
+![01SystemOverview](https://user-images.githubusercontent.com/46496967/60283629-9b123b80-9944-11e9-94e9-2b414446f551.png)
 
-![02SystemDisplay](./images/02SystemDisplay.png)
+![02SystemDisplay](https://user-images.githubusercontent.com/46496967/60283632-9cdbff00-9944-11e9-88d5-adb758d4b514.png)
 
-![03VideoProc](./images/03VideoProc.png)
+![03VideoProc](https://user-images.githubusercontent.com/46496967/60283640-a1081c80-9944-11e9-979e-c31ffce3ceab.png)
 
-![04IntelPowerGadget](./images/04IntelPowerGadget.png)
+![04IntelPowerGadget](https://user-images.githubusercontent.com/46496967/60283642-a1a0b300-9944-11e9-8b3e-e1a7283cd61f.png)
 
-![05Geekbench_CPU](./images/05Geekbench_CPU.png)
+![05Geekbench_CPU](https://user-images.githubusercontent.com/46496967/60283643-a1a0b300-9944-11e9-98b4-fd5650762e0c.png)
 
-![06Geekbench_GPU](./images/06Geekbench_GPU.png)
+![06Geekbench_GPU](https://user-images.githubusercontent.com/46496967/60283649-a2d1e000-9944-11e9-847e-7d6399875ad6.png)
 
-![07USBOrigin](./images/07USBOrigin.png)
+![07USBOrigin](https://user-images.githubusercontent.com/46496967/60283654-a36a7680-9944-11e9-8ca0-efb77f46b023.png)
 
-![08USBEdit](./images/08USBEdit.png)
+![08USBEdit](https://user-images.githubusercontent.com/46496967/60283655-a49ba380-9944-11e9-98ad-48ce1f903b61.png)
