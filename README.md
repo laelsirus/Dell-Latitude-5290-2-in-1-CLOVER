@@ -88,7 +88,7 @@
   If your iGPU is not 'Intel UHD Graphics 620', additional graphics patches might be required
 
 ***NullEthernet.kext & ssdt-rmne.aml***
-- Null Ethernet is a way to prevent a Mac address-based license for some software from being discontinued when a wireless card is absent or replaced (including iCloud)  
+- Null Ethernet is a way to prevent a Mac address-based license for some software from being broken when a wireless card is absent or replaced (including iCloud)  
   If you do not need to consider blocking software licenses by changing your Mac address, you can remove it
 
 
