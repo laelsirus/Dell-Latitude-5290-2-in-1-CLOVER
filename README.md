@@ -92,7 +92,6 @@
   If you do not need to consider blocking software licenses by changing your Mac address, you can remove it
 
 
-
 ## What Works
 
 ***Graphics/Display***
