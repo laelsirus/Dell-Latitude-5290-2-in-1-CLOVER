@@ -148,7 +148,7 @@
 - MicroSD slot not working properly  
   If you use modified Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are still some problems
 
-- PCIE front and rear camera (AVStream2500, OV series camera) not recognized
+- PCIE front and rear camera (AVStream2500, OV5670, OV8858) not recognized
 
 - Compared to Windows, white noise occurs a little on speakers
 
