@@ -76,16 +76,21 @@
 
 ## ETC
 
-***Intel UHD Graphics 620***
-- This build is suitable for 'Dell Latitude 5290 2-in-1' system uses iGPU of 'Intel UHD Graphics 620'  
-  If your iGPU is not 'Intel UHD Graphics 620', additional graphics patches might be required
-
 ***After installation***
 - Remove these boot flags  
     -v  
     debug=0x100  
     keepsyms=1
 - Additional patches are required for iMessage and Facetime activation 
+
+***Intel UHD Graphics 620***
+- This build is suitable for 'Dell Latitude 5290 2-in-1' system uses iGPU of 'Intel UHD Graphics 620'  
+  If your iGPU is not 'Intel UHD Graphics 620', additional graphics patches might be required
+
+***NullEthernet.kext***
+- Null Ethernet is a way to prevent a Mac address-based license for some software from being discontinued when a wireless card is absent or replaced (including iCloud)  
+  If you do not need to consider blocking software licenses by changing your Mac address, you can remove it
+
 
 
 ## What Works
