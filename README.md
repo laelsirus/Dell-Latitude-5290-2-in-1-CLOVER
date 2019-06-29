@@ -93,7 +93,7 @@
 
 ***Brightness Key***
 - 'fn' + 's' = Brightness down
-- 'fn' + 's' = Brightness up
+- 'fn' + 'b' = Brightness up
 
 
 ## What Works
