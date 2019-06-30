@@ -17,7 +17,7 @@
 ## Bios/Clover Bootloader/macOS Version
 
 - Bios : 1.7.3
-- Clover Bootloader : v2.4k r4920 (or Higher)
+- Clover Bootloader : Above v2.4k r4920
 - macOS : Above 10.14
 
 
