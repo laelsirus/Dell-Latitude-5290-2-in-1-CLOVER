@@ -77,6 +77,7 @@
 ## ETC
 
 ***After installation***
+- Turn off FileVault2  
 - Remove these boot flags  
     -v  
     debug=0x100  
@@ -161,6 +162,8 @@
   After recognized the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
 
 - 3:2 resolution HiDPI not works through known method
+
+- FileVault2 not works
 
 ## Screenshots
 
