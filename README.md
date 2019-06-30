@@ -49,7 +49,7 @@
 - ApfsDriverLoader-64.efi
 - AptioMemoryFix-64.efi
 - FSInject-64.efi
-- HFSPlus.efi
+- VBoxHfs-64.efi
 - VirtualSmc.efi
 
 
