@@ -82,7 +82,8 @@
     -v  
     debug=0x100  
     keepsyms=1
-- Additional patches are required for iMessage and Facetime activation 
+- Additional patches are required for iMessage and Facetime activation
+- Add a HiDPI 1920 * 1280 (3840 * 2560)
 
 ***Intel UHD Graphics 620***
 - This build is suitable for 'Dell Latitude 5290 2-in-1' system uses iGPU of 'Intel UHD Graphics 620'  
@@ -161,7 +162,7 @@
   Once recognized, the touch screen will not be lost  
   After recognized the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
 
-- 3:2 resolution HiDPI not works through known method
+- 3:2 resolution HiDPI of under 1920 * 1280 (3840 * 2560) not works through known method
 
 - FileVault2 not works
 
