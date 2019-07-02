@@ -142,7 +142,7 @@
 - When the battery is in use, the disk not ejected properly after sleeping  
   Fixed with SafeSleepUSB.app or Jettison.app
 
-- WWAN communication via WWAN card, USIM, and Legacy_Sierra_QMI.kext is feasible, but has not been tried yet
+- WWAN communication via WWAN card, USIM, and Legacy_Sierra_QMI.kext is feasible, but has not been tested yet
 
 - DW1820A(BCM94350ZAE) - 1028:0021 (part # CN-0VW3T3)  
   Issue 1 : WiFi Down sometimes
