@@ -91,7 +91,8 @@
 
 ***Thunderbolt 3***
 This build is suitable for 'Dell Latitude 5290 2-in-1' system without 'Thunderbolt 3'  
-For Thunderbolt 3 built-in model, it will need to repatch and regenerate DSDT.aml, SSDT-UIAC.aml, SSDT-USBX.aml, and USBPorts.kext
+For Thunderbolt 3 built-in model, it must repatch and regenerate DSDT.aml, SSDT-UIAC.aml, SSDT-USBX.aml, and USBPorts.kext  
+Additional patches might be required for working Thunderbolt 3
 
 ***NullEthernet.kext & ssdt-rmne.aml***
 - Null Ethernet is a way to prevent a Mac address-based license for some software from being broken when a wireless card is absent or replaced (including iCloud)  
