@@ -89,6 +89,10 @@
 - This build is suitable for 'Dell Latitude 5290 2-in-1' system uses iGPU of 'Intel UHD Graphics 620'  
   If your iGPU is not 'Intel UHD Graphics 620', additional graphics patches might be required
 
+***Thunderbolt 3***
+This build is suitable for 'Dell Latitude 5290 2-in-1' system without 'Thunderbolt 3'  
+For Thunderbolt 3 built-in model, it will need to repatch and regenerate DSDT.aml, SSDT-UIAC.aml, SSDT-USBX.aml, and USBPorts.kext
+
 ***NullEthernet.kext & ssdt-rmne.aml***
 - Null Ethernet is a way to prevent a Mac address-based license for some software from being broken when a wireless card is absent or replaced (including iCloud)  
   If you do not need to consider blocking software licenses by changing your Mac address, you can remove it
