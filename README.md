@@ -149,6 +149,8 @@ Additional patches might be required for working Thunderbolt 3
 
 - WWAN communication via WWAN card, USIM, and Legacy_Sierra_QMI.kext is feasible, but has not been tested yet
 
+- If wired USB LAN is connected with power connected state, it wakes up immediately after sleeping.
+
 - DW1820A(BCM94350ZAE) - 1028:0021 (part # CN-0VW3T3)  
   Issue 1 : WiFi Down sometimes
 
