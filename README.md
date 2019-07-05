@@ -169,7 +169,7 @@ Additional patches might be required for working Thunderbolt 3
   Once recognized, the touch screen will not be lost  
   After recognized the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
 
-- 3:2 resolution HiDPI of under 1920 * 1280 (3840 * 2560) not works through known method
+- 3:2 resolution HiDPI of under 1913 * 1275 (3825 * 2550) not works through known method
 
 - FileVault2 not works
 
