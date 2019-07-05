@@ -98,9 +98,10 @@ Additional patches might be required for working Thunderbolt 3
 - Null Ethernet is a way to prevent a Mac address-based license for some software from being broken when a wireless card is absent or replaced (including iCloud)  
   If you do not need to consider blocking software licenses by changing your Mac address, you can remove it
 
-***Brightness Key***
-- 'fn' + 's' = Brightness down
-- 'fn' + 'b' = Brightness up
+***Fn Key***
+- 'Fn' + 'r' || PrtScr = F13
+- 'Fn' + 's' = F14 (Brightness down)
+- 'Fn' + 'b' = F15 (Brightness up)
 
 
 ## What Works
