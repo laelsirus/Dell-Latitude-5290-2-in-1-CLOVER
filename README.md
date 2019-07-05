@@ -70,7 +70,7 @@
 - VirtualSMC.kext
 - VoodooI2C.kext
 - VoodooI2CHID.kext
-- VoodooPS2Controller.kext    -    Add 'Info.plist - IOKitPersonalities - IONameMatch - Item 0 - PNP044E'
+- VoodooPS2Controller.kext
 - WhateverGreen.kext
 
 
