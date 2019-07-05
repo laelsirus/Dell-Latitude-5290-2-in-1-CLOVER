@@ -77,7 +77,7 @@
 ## ETC
 
 ***After installation***
-- Turn off FileVault2  
+- Turn off FileVault2 (necessary)  
 - Remove these boot flags  
     -v  
     debug=0x100  
