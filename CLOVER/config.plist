@@ -308,13 +308,13 @@
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
-			<true/>
+			<false/>
 			<key>Legacy</key>
 			<false/>
 			<key>Linux</key>
-			<true/>
+			<false/>
 			<key>Tool</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Theme</key>
 		<string>Minimalism</string>
