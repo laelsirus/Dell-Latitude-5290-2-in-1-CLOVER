@@ -296,6 +296,7 @@
 		</dict>
 		<key>Hide</key>
 		<array>
+			<string>Legacy</string>
 			<string>Preboot</string>
 			<string>Recovery</string>
 		</array>
