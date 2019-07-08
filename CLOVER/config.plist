@@ -271,6 +271,7 @@
 			<string>Legacy</string>
 			<string>Preboot</string>
 			<string>Recovery</string>
+			<string>Windows</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
