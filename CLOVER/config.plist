@@ -269,9 +269,9 @@
 		<key>Hide</key>
 		<array>
 			<string>Legacy</string>
+			<string>Microsoft</string>
 			<string>Preboot</string>
 			<string>Recovery</string>
-			<string>Windows</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
