@@ -2,73 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>#Comment</key>
-	<string>This file is for 10.12.6+ with native KabyLake support</string>
 	<key>ACPI</key>
 	<dict>
-		<key>#Comment-SortedOrder</key>
-		<string>SortedOrder required if you have patched SSDTs in ACPI/patched</string>
-		<key>#SortedOrder</key>
-		<array>
-			<string>SSDT.aml</string>
-			<string>SSDT-0.aml</string>
-			<string>SSDT-1.aml</string>
-			<string>SSDT-2.aml</string>
-			<string>SSDT-3.aml</string>
-			<string>SSDT-4.aml</string>
-			<string>SSDT-5.aml</string>
-			<string>SSDT-6.aml</string>
-			<string>SSDT-7.aml</string>
-			<string>SSDT-8.aml</string>
-			<string>SSDT-9.aml</string>
-			<string>SSDT-10.aml</string>
-			<string>SSDT-11.aml</string>
-			<string>SSDT-12.aml</string>
-			<string>SSDT-13.aml</string>
-			<string>SSDT-14.aml</string>
-			<string>SSDT-15.aml</string>
-			<string>SSDT-16.aml</string>
-			<string>SSDT-17.aml</string>
-			<string>SSDT-18.aml</string>
-			<string>SSDT-19.aml</string>
-			<string>SSDT-XOSI.aml</string>
-			<string>SSDT-LPC.aml</string>
-			<string>SSDT-UIAC.aml</string>
-			<string>SSDT-PNLF.aml</string>
-		</array>
 		<key>AutoMerge</key>
 		<true/>
 		<key>DSDT</key>
 		<dict>
-			<key>DropOEM_DSM</key>
-			<false/>
-			<key>Fixes</key>
-			<dict>
-				<key>#Comment-IRQ Fix</key>
-				<string>The following fixes may be needed for onboard audio/USB/etc</string>
-				<key>AddPNLF</key>
-				<false/>
-				<key>FixAirport</key>
-				<false/>
-				<key>FixDisplay</key>
-				<false/>
-				<key>FixHDA</key>
-				<false/>
-				<key>FixHPET</key>
-				<false/>
-				<key>FixIPIC</key>
-				<false/>
-				<key>FixIntelGfx</key>
-				<false/>
-				<key>FixMutex</key>
-				<false/>
-				<key>FixRTC</key>
-				<false/>
-				<key>FixRegions</key>
-				<false/>
-				<key>FixTMR</key>
-				<false/>
-			</dict>
+			<key>Name</key>
+			<string>DSDT.aml</string>
 			<key>Patches</key>
 			<array>
 				<dict>
@@ -76,8 +17,6 @@
 					<string>change GFX0 to IGPU</string>
 					<key>Disabled</key>
 					<false/>
-					<key>Enabled</key>
-					<true/>
 					<key>Find</key>
 					<data>
 					R0ZYMA==
@@ -135,8 +74,6 @@
 		<true/>
 		<key>SSDT</key>
 		<dict>
-			<key>DropOem</key>
-			<false/>
 			<key>Generate</key>
 			<dict>
 				<key>PluginType</key>
@@ -148,29 +85,14 @@
 	<dict>
 		<key>Arguments</key>
 		<string>-v debug=0x100 keepsyms=1</string>
-		<key>Debug</key>
-		<false/>
 		<key>DefaultVolume</key>
 		<string>macOS</string>
-		<key>HibernationFixup</key>
-		<false/>
 		<key>NeverHibernate</key>
 		<true/>
-		<key>Secure</key>
-		<false/>
-		<key>SkipHibernateTimeout</key>
-		<false/>
 		<key>Timeout</key>
 		<integer>5</integer>
 		<key>XMPDetection</key>
-		<false/>
-	</dict>
-	<key>CPU</key>
-	<dict>
-		<key>HWPEnable</key>
-		<false/>
-		<key>UseARTFrequency</key>
-		<false/>
+		<string>Yes</string>
 	</dict>
 	<key>Devices</key>
 	<dict>
@@ -183,8 +105,6 @@
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
-		<key>LANInjection</key>
-		<false/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
@@ -250,22 +170,12 @@
 		</dict>
 		<key>USB</key>
 		<dict>
-			<key>AddClockID</key>
-			<false/>
 			<key>FixOwnership</key>
 			<true/>
-			<key>HighCurrent</key>
-			<false/>
-			<key>Inject</key>
-			<false/>
-			<key>NameEH00</key>
-			<false/>
 		</dict>
 	</dict>
 	<key>GUI</key>
 	<dict>
-		<key>#ScreenResolution</key>
-		<string>1920x1080</string>
 		<key>Hide</key>
 		<array>
 			<string>Legacy</string>
@@ -305,16 +215,6 @@
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
-		<key>AppleIntelCPUPM</key>
-		<false/>
-		<key>AppleRTC</key>
-		<true/>
-		<key>DellSMBIOSPatch</key>
-		<false/>
-		<key>KernelLapic</key>
-		<true/>
-		<key>KernelPm</key>
-		<true/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
@@ -462,8 +362,6 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>#BacklightLevel</key>
-		<integer>0</integer>
 		<key>InjectKexts</key>
 		<string>Detect</string>
 		<key>InjectSystemID</key>
