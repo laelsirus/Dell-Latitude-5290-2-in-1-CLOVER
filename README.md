@@ -70,7 +70,7 @@
 - VirtualSMC.kext
 - VoodooI2C.kext
 - VoodooI2CHID.kext
-- VoodooPS2Controller.kext
+- VoodooPS2Controller.kext    -    Edit VoodooPS2Trackpad.kext's plist (ProductID:1218, VendorID:044E)
 - WhateverGreen.kext
 
 
