@@ -154,7 +154,7 @@ Additional patches might be required for working Thunderbolt 3
 
 - Wireless Communication - DW1830(BCM943602BAED)
   Issues 1 : When the battery is in use, bluetooth not works properly after sleep  
-  it needs to reinstall the Bluetooth driver on Windows to get back to normal
+    It needs to reinstall the Bluetooth driver on Windows to get back to normal  
   Issues 2 : If check 'Wake for Wi-Fi network access', wifi speed will be very slow after sleep
 
 - MicroSD slot not working properly  
