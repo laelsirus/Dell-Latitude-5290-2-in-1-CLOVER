@@ -155,9 +155,10 @@ Additional patches might be required for working Thunderbolt 3
 - DW1820A(BCM94350ZAE) - 1028:0021 (part # CN-0VW3T3)  
   Issue 1 : WiFi Down sometimes
 
-- DW1830(BCM943602BAED) - VenderID : 0489, ProductID : E0A1, Firmware Version:v5 c4510 (v5 c4096)  
-  Issues 1 : Bluetooth not works after sleep  
-  Issues 2 : If check 'Wake for Wi-Fi network access', wifi speed will be very slow after sleep.
+- Wireless Communication - DW1830(BCM943602BAED)
+  Issues 1 : When the battery is in use, bluetooth not works properly after sleep  
+  it needs to reinstall the Bluetooth driver on Windows to get back to normal
+  Issues 2 : If check 'Wake for Wi-Fi network access', wifi speed will be very slow after sleep
 
 - MicroSD slot not working properly  
   If you use modified Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are still some problems
