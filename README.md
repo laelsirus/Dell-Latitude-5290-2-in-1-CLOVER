@@ -152,9 +152,6 @@ Additional patches might be required for working Thunderbolt 3
 
 - If wired USB LAN is connected with power connected state, it wakes up immediately after sleeping.
 
-- DW1820A(BCM94350ZAE) - 1028:0021 (part # CN-0VW3T3)  
-  Issue 1 : WiFi Down sometimes
-
 - Wireless Communication - DW1830(BCM943602BAED)
   Issues 1 : When the battery is in use, bluetooth not works properly after sleep  
   it needs to reinstall the Bluetooth driver on Windows to get back to normal
