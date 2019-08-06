@@ -70,8 +70,6 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
-						<key>DevSpeed</key>
-						<integer>1</integer>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -84,7 +82,7 @@
 						<key>DevSpeed</key>
 						<integer>1</integer>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AgAAAA==
