@@ -128,7 +128,7 @@ Additional patches might be required for working Thunderbolt 3
 ***Power Management***
 - CPU/Speed Step
 - Battery
-- Type C PD 2 Ports Charging
+- Type C PD 2 Ports Charging, PowerShare
 - Sleep/Wake
 
 ***Storage Device***
