@@ -59,6 +59,7 @@
 - AppleALC.kext
 - BrcmFirmwareRepo.kext
 - BrcmPatchRAM2.kext
+- CodecCommander.kext
 - EFICheckDisabler.kext
 - Lilu.kext
 - NullEthernet.kext
