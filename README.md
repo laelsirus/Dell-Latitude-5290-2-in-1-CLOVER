@@ -85,6 +85,7 @@
     keepsyms=1
 - Additional patches are required for iMessage and Facetime activation
 - HiDPI 1920 * 1280 (3840 * 2560) can be added, but it requires more resources
+- It is recommended that you do a new ACPI patch on your system
 
 ***Intel UHD Graphics 620***
 - This build is compatible for 'Dell Latitude 5290 2-in-1' system uses iGPU of 'Intel UHD Graphics 620'  
