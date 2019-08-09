@@ -158,7 +158,7 @@ Additional patches might be required for working Thunderbolt 3
   &ensp; Issues 1 : When the battery is in use, bluetooth not works properly after sleep  
   &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; It needs to reinstall the Bluetooth driver on Windows to get back to normal  
   &ensp; Issues 2 : If check 'Wake for Wi-Fi network access', wifi speed will be very slow after sleep  
-  DW1560(BCM94352ZAE) will be tested soon
+  DW1560(BCM94352Z) will be tested soon
 
 - MicroSD slot not working properly  
   If you use modified Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are still some problems
