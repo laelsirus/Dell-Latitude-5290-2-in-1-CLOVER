@@ -9,7 +9,7 @@
 - Memory : Samsung LPDDR3 8GB 1867MHZ (4GB * 2 Dual Channel)
 - SSD : TOSHIBA KXG60ZMV256G 256GB (2280), Western Digital PC SN520 NVMe SSD 512GB (2230)
 - Wireless : BCM943602BAED(DW1830) (WWAN Slot * 1)
-- External Port & Slot : USB 3.2 Gen 1  * 2, TYPE C * 2 (USB 3.2 Gen 1, Displayport, Power Delivery), I2C PORT * 1, Audio Jack * 1, Smart Card Reader * 1 USIM Slot * 1, Lock Slot *1
+- External Port & Slot : USB 3.2 Gen 1  * 2, TYPE C * 2 (USB 3.2 Gen 1, Displayport, Power Delivery), I2C PORT * 1, Audio Jack * 1, Smart Card Reader * 1 USIM Slot * 1, Noble Wedge Lock Slot *1
 - Battery : 42WHr
 - Windows 10 Pro
 
