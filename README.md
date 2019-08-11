@@ -35,7 +35,7 @@
 - [sys] Fix Mutex with non-zero SyncLevel
 - [sys] Fix PNOT/PPNT
 - [sys] HPET Fix
-- [sys] Fix IRQ Fix
+- [sys] IRQ Fix
 - [sys] OS Check Fix (Windows 10)
 - [sys] RTC Fix
 - [sys] Shutdown Fix
