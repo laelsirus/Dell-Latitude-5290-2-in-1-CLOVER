@@ -8,7 +8,7 @@
 - Display : 12.3 Inch 1920 X 1280 (WUXGA+) 3:2 10 Points Multi Touch
 - Memory : Samsung LPDDR3 8GB 1867MHZ (4GB * 2 Dual Channel)
 - SSD : TOSHIBA KXG60ZMV256G 256GB (2280), Western Digital PC SN520 NVMe SSD 512GB (2230)
-- Wireless : BCM943602BAED(DW1830) (WWAN Slot * 1)
+- Wireless : BCM94352Z(DW1560) (WWAN Slot * 1)
 - External Port & Slot : USB 3.2 Gen 1  * 2, TYPE C * 2 (USB 3.2 Gen 1, Displayport, Power Delivery), I2C PORT * 1, Audio Jack * 1, Smart Card Reader * 1 USIM Slot * 1, Noble Wedge Lock Slot *1
 - Battery : 42WHr
 - Windows 10 Pro
@@ -59,6 +59,8 @@
 - AppleALC.kext
 - BrcmFirmwareRepo.kext
 - BrcmPatchRAM2.kext
+- CPUFriend.kext
+- CPUFriendDataProvider.kext
 - CodecCommander.kext
 - EFICheckDisabler.kext
 - Lilu.kext
@@ -158,7 +160,7 @@ Additional patches might be required for working Thunderbolt 3
   &ensp; Issues 1 : When the battery is in use, bluetooth not works properly after sleep  
   &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; It needs to reinstall the Bluetooth driver on Windows to get back to normal  
   &ensp; Issues 2 : If check 'Wake for Wi-Fi network access', wifi speed will be very slow after sleep  
-  DW1560(BCM94352Z) will be tested soon
+  BCM94352Z(DW1560) does not have this issue, so it is recommended
 
 - MicroSD slot not working properly  
   If you use modified Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are still some problems
