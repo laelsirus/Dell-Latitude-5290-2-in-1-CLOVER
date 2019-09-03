@@ -60,7 +60,7 @@
 - BrcmFirmwareRepo.kext
 - BrcmPatchRAM2.kext
 - CPUFriend.kext
-- CPUFriendDataProvider.kextIntel® Core™ i5-8350U Processor    -    Generated with one-key-cpufriend by stevezhengshiqi
+- CPUFriendDataProvider.kext    -    Generated with one-key-cpufriend by stevezhengshiqi
 - CodecCommander.kext
 - EFICheckDisabler.kext
 - Lilu.kext
