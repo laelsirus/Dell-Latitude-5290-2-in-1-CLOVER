@@ -59,8 +59,8 @@
 - AppleALC.kext
 - BrcmFirmwareRepo.kext
 - BrcmPatchRAM2.kext
-- CPUFriend.kext    -    Generated with one-key-cpufriend by stevezhengshiqi
-- CPUFriendDataProvider.kext    -    Generated with one-key-cpufriend by stevezhengshiqi
+- CPUFriend.kext
+- CPUFriendDataProvider.kextIntel® Core™ i5-8350U Processor    -    Generated with one-key-cpufriend by stevezhengshiqi
 - CodecCommander.kext
 - EFICheckDisabler.kext
 - Lilu.kext
@@ -89,9 +89,13 @@
 - HiDPI 1920 * 1280 (3840 * 2560) can be added, but it requires more resources
 - It is recommended that you do a new ACPI patch on your system
 
-***Intel UHD Graphics 620***
-- This build is compatible for 'Dell Latitude 5290 2-in-1' system uses iGPU of 'Intel UHD Graphics 620'  
-  If your iGPU is not 'Intel UHD Graphics 620', additional graphics patches might be required
+***Intel® Core™ i5-8350U Processor***
+- CPUFriendDataProvider.kext has been modified to manage the operation of the 'Intel® Core ™ i5-8350U Processor'  
+  If your CPU is not 'Intel® Core™ i5-8350U Processor', remove or regenerate the CPUFriendDataProvider.kext
+
+***Intel® UHD Graphics 620***
+- This build is compatible for 'Dell Latitude 5290 2-in-1' system uses iGPU of 'Intel® UHD Graphics 620'  
+  If your iGPU is not 'Intel® UHD Graphics 620', additional graphics patches might be required
 
 ***Thunderbolt 3***
 - This build is compatible for 'Dell Latitude 5290 2-in-1' system without 'Thunderbolt 3'  
