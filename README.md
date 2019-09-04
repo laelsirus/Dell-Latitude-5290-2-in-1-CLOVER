@@ -110,6 +110,7 @@ Additional patches might be required for working Thunderbolt 3
 - 'Fn' + 'r' || PrtScr = F13
 - 'Fn' + 's' = F14 (Brightness down)
 - 'Fn' + 'b' = F15 (Brightness up)
+- 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
 
 
 ## What Works
