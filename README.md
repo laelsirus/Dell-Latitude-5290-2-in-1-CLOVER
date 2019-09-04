@@ -61,7 +61,6 @@
 - BrcmPatchRAM2.kext
 - CPUFriend.kext
 - CPUFriendDataProvider.kext    -    Generated with one-key-cpufriend by stevezhengshiqi
-- CodecCommander.kext
 - EFICheckDisabler.kext
 - Lilu.kext
 - NullEthernet.kext
