@@ -57,6 +57,7 @@
 
 - AirportBrcmFixup.kext
 - AppleALC.kext
+- BrcmBluetoothInjector.kext
 - BrcmFirmwareRepo.kext
 - BrcmPatchRAM2.kext
 - CPUFriend.kext
