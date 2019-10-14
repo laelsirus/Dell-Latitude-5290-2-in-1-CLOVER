@@ -120,7 +120,7 @@ Additional patches might be required for working Thunderbolt 3
 - Type C DP 2 ports Video / Audio output Hot Swap
 - Brightness control
 - Lid Close Sleep with Magnetic Travel Keyboard
-- I2C touch screen Up to 4 points Gesture action (recognized as Magic Trackpad 2)
+- I2C touch screen Up to 5 points Gesture action (recognized as Magic Trackpad 2)
 
 ***Audio***
 - Built-in speaker
@@ -129,7 +129,7 @@ Additional patches might be required for working Thunderbolt 3
 - DP Audio Output
 
 ***Input***
-- I2C touch screen Up to 4 points Gesture action (recognized as Magic Trackpad 2)
+- I2C touch screen Up to 5 points Gesture action (recognized as Magic Trackpad 2)
 - I2C Keyboard (Magnetic Travel Keyboard) with Backlight
 - Touchpad (Magnetic Travel Keyboard, recognized as mouse)
 - Volume button, window button, power button
