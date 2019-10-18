@@ -141,7 +141,7 @@ Additional patches might be required for working Thunderbolt 3
 - Sleep/Wake
 
 ***Storage Device***
-- Full Size/ Type C USB 2.0, 3.0 Hot Swap
+- Full Size/Type C USB 2.0, 3.0 Hot Swap
 - m.2 NVME 2280/ m.2 SATA 2280 1 Slot and m.2 NVME 2230(2242)/ m.2 SATA 2230(2242) 1 Slot
 
 ***Wireless communication***
@@ -168,13 +168,13 @@ Additional patches might be required for working Thunderbolt 3
   BCM94352Z(DW1560) does not have this issue, so it is recommended
 
 - MicroSD slot not working properly  
-  If you use modified Sinetek-rtsx.kext, you can use HFS + formatted SD card, but there are still some problems
+  If you use modified Sinetek-rtsx.kext, you can use HFS+ formatted SD card, but there are still some problems
 
 - I2C front and rear camera (AVStream2500, OV5670, OV8858) not recognized
 
 - Compared to Windows, white noise occurs a little on speakers
 
-- In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized and suddenly recognized after specific setup / injection event after personal setting  
+- In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized but suddenly recognized after specific setup / injection event after personal setting  
   Once recognized, the touch screen will not be lost  
   After recognized the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
 
