@@ -16,7 +16,7 @@
 
 ## Bios/Clover Bootloader/macOS Version
 
-- Bios : 1.7.3
+- Bios : 1.10.0
 - Clover Bootloader : Above v2.5k
 - macOS : 10.14.X, 10.15.X
 
@@ -30,7 +30,6 @@
 
 - [misc] Remove _PRW from LID
 - [sys] AC Adapter Fix
-- [sys] Add IMEI
 - [sys] Fix _WAK Arg0 v2
 - [sys] Fix Mutex with non-zero SyncLevel
 - [sys] Fix PNOT/PPNT
@@ -38,7 +37,6 @@
 - [sys] IRQ Fix
 - [sys] OS Check Fix (Windows 10)
 - [sys] RTC Fix
-- [sys] Shutdown Fix
 - [sys] Shutdown Fix v2
 - [sys] SMBUS Fix
 - [GPIO] GPIO Controller Enable [SKL+]
