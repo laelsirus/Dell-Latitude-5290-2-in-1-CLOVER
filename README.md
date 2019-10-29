@@ -173,7 +173,7 @@ Additional patches might be required for working Thunderbolt 3
 - Compared to Windows, white noise occurs a little on speakers
 
 - In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized  
-  Touch screen works after kext cache rebuild (sudo kextcache -i /)
+  Touch screen works after kext cache rebuild (sudo kextcache -i /)  
   Once recognized, the touch screen will not be lost  
   After recognized the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
 
