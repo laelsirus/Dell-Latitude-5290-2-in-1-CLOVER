@@ -86,6 +86,10 @@
 - Additional patches are required for iMessage and Facetime activation
 - HiDPI 1920 * 1280 (3840 * 2560) can be added, but it requires more resources
 - It is recommended that you do a new ACPI patch on your system
+- Install SafeSleepUSB.app to fix disk eject issues
+- Rebuild kext cache for touchscreen activation
+- Install Karabiner-Elements.app to activate Alps touchpad that is disabled after touchscreen activation
+
 
 ***Intel® Core™ i5-8350U Processor***
 - CPUFriendDataProvider.kext has been modified to manage the operation of the 'Intel® Core ™ i5-8350U Processor'  
@@ -175,7 +179,8 @@ Additional patches might be required for working Thunderbolt 3
 - In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized  
   Touch screen works after kext cache rebuild (sudo kextcache -i /)  
   Once recognized, the touch screen will not be lost  
-  After recognized the touch screen, the touch pad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner
+  After recognized the touch screen, the Alps touchpad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner  
+  Check 'Alps Touchpad (Alps)' in 'Karabiner-Elements Preferences - Devices - Basic configuration'
 
 - 3:2 resolution HiDPI of under 1913 * 1275 (3825 * 2550) not works through known method
 
