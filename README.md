@@ -57,7 +57,7 @@
 - AppleALC.kext
 - BrcmBluetoothInjector.kext
 - BrcmFirmwareData.kext
-- BrcmPatchRAM2.kext
+- BrcmPatchRAM3.kext
 - CPUFriend.kext
 - CPUFriendDataProvider.kext    -    Generated with one-key-cpufriend by stevezhengshiqi
 - EFICheckDisabler.kext
