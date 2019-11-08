@@ -30,6 +30,7 @@
 
 - [misc] Remove _PRW from LID
 - [sys] AC Adapter Fix
+- [sys] Add IMEI
 - [sys] Fix _WAK Arg0 v2
 - [sys] Fix Mutex with non-zero SyncLevel
 - [sys] Fix PNOT/PPNT
