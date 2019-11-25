@@ -121,7 +121,7 @@ Additional patches might be required for working Thunderbolt 3
 ## What Works
 
 ***Graphics/Display***
-- Intel® UHD Graphics 620 QE/CI, 2048MB Vram
+- Intel® UHD Graphics 620 QE/CI, 2048MB vRam
 - Type C DP 2 ports Video / Audio output Hot Swap
 - Brightness control
 - Lid Close Sleep with Magnetic Travel Keyboard
