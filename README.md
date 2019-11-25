@@ -162,8 +162,6 @@ Additional patches might be required for working Thunderbolt 3
 - When the battery is in use, the disk not ejected properly after sleeping  
   Fixed with SafeSleepUSB.app or Jettison.app
 
-- WWAN communication via WWAN card, USIM, and Legacy_Sierra_QMI.kext is feasible, but has not been tested yet
-
 - If wired USB LAN is connected with power connected state, it wakes up immediately after sleeping.
 
 - Wireless Communication - DW1830(BCM943602BAED) is not recommended on this model  
@@ -172,18 +170,20 @@ Additional patches might be required for working Thunderbolt 3
   &ensp; Issues 2 : If check 'Wake for Wi-Fi network access', wifi speed will be very slow after sleep  
   BCM94352Z(DW1560) does not have this issue, so it is recommended
 
-- MicroSD slot not working properly  
-  If you use modified Sinetek-rtsx.kext, you can use HFS+ formatted SD card, but there are still some problems
-
-- I2C front and rear camera (AVStream2500, OV5670, OV8858) not recognized
-
-- Compared to Windows, white noise occurs a little on speakers
+- WWAN communication via WWAN card, USIM, and Legacy_Sierra_QMI.kext is feasible, but has not been tested yet
 
 - In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized  
   Touch screen works after kext cache rebuild (sudo kextcache -i /)  
   Once recognized, the touch screen will not be lost  
   After recognized the touch screen, the Alps touchpad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner  
   Check 'Alps Touchpad (Alps)' in 'Karabiner-Elements Preferences - Devices - Basic configuration'
+
+- MicroSD slot not working properly  
+  If you use modified Sinetek-rtsx.kext, you can use HFS+ formatted SD card, but there are still some problems
+
+- I2C front and rear camera (AVStream2500, OV5670, OV8858) not recognized
+
+- Compared to Windows, white noise occurs a little on speakers
 
 - 3:2 resolution HiDPI of under 1913 * 1275 (3825 * 2550) not works through known method
 
