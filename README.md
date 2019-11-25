@@ -75,6 +75,8 @@
 - VoodooPS2Controller.kext    -    Edit VoodooPS2Trackpad.kext's plist (ProductID:1218, VendorID:044E)
 - WhateverGreen.kext
 
+***CPUFriend.kext, and CPUFriendDataProvider.kext are not mandatory kext  
+But creating it for your system will help you manage power***
 
 ## ETC
 
