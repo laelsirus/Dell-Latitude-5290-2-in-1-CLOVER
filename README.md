@@ -59,7 +59,6 @@
 - BrcmBluetoothInjector.kext
 - BrcmFirmwareData.kext
 - BrcmPatchRAM3.kext
-- CodecCommander.kext    -    Add 'Custom Commands' for Realtek ALC225
 - CPUFriend.kext
 - CPUFriendDataProvider.kext    -    Generated with one-key-cpufriend by stevezhengshiqi
 - EFICheckDisabler.kext
