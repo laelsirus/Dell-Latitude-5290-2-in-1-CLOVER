@@ -172,8 +172,8 @@ Additional patches might be required for working Thunderbolt 3
 
 - WWAN communication via WWAN card, USIM, and Legacy_Sierra_QMI.kext is feasible, but has not been tested yet
 
-- In case of new installation, Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID is not immediately recognized  
-  Touch screen works after kext cache rebuild (sudo kextcache -i /)  
+- Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID may not be recognized for new installations or OS updates  
+  In this case touchscreen works after kext cache rebuild (sudo kextcache -i /)  
   Once recognized, the touch screen will not be lost  
   After recognized the touch screen, the Alps touchpad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner  
   Check 'Alps Touchpad (Alps)' in 'Karabiner-Elements Preferences - Devices - Basic configuration'
