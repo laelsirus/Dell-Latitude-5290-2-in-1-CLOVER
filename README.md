@@ -90,7 +90,7 @@ But creating it for your system will help you manage power***
 - HiDPI 1920 * 1280 (3840 * 2560) can be added, but it requires more resources
 - It is recommended that you do a new ACPI patch on your system
 - Install 'SafeSleepUSB.app' to fix disk eject issues
-- Install 'Silent Player' to fix abnormal headphone jack operation when entering audio idle state while battery is in use
+- Install 'Silent Player' to fix abnormal Headphone Jack operation when entering audio idle state while battery is in use
 - Rebuild kext cache for touchscreen activation
 - Install Karabiner-Elements.app to activate Alps touchpad that is disabled after touchscreen activation
 
