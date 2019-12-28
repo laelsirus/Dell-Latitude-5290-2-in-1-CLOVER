@@ -165,7 +165,7 @@ Additional patches might be required for working Thunderbolt 3
 
 - Popping sound from Headphone Jack when entering audio idle state while battery in use  
   Prevent this issue by installing 'Silent Player', which continuously plays silence  
-  This issue happens even after sleep  
+  This issue happens even after sleep while battery in use  
   Set the Input to Line In once in the System Preference - Sound, it works normally again  
   This issue is not fully resolved yet
 
