@@ -89,7 +89,8 @@ But creating it for your system will help you manage power***
 - Additional patches are required for iMessage and Facetime activation
 - HiDPI 1920 * 1280 (3840 * 2560) can be added, but it requires more resources
 - It is recommended that you do a new ACPI patch on your system
-- Install SafeSleepUSB.app to fix disk eject issues
+- Install 'SafeSleepUSB.app' to fix disk eject issues
+- Install 'Silent Player' to fix abnormal headphone jack operation when entering audio idle state while battery is in use
 - Rebuild kext cache for touchscreen activation
 - Install Karabiner-Elements.app to activate Alps touchpad that is disabled after touchscreen activation
 
@@ -160,7 +161,13 @@ Additional patches might be required for working Thunderbolt 3
   As a result, if you connect a device above USB 3.0 to the Full size USB port, it will be recognized as an internal disk icon
 
 - When the battery is in use, the disk not ejected properly after sleeping  
-  Fixed with SafeSleepUSB.app or Jettison.app
+  Fixed with SafeSleepUSB.app
+
+- Popping sound from Headphone Jack when entering audio idle state while battery in use  
+  Prevent this issue by installing 'Silent Player', which continuously plays silence  
+  This issue happens even after sleep  
+  Set the Input to Line In once in the System Preference - Sound, it works normally again  
+  This issue is not fully resolved yet
 
 - If wired USB LAN is connected with power connected state, it wakes up immediately after sleeping.
 
@@ -182,8 +189,6 @@ Additional patches might be required for working Thunderbolt 3
   If you use modified Sinetek-rtsx.kext, you can use HFS+ formatted SD card, but there are still some problems
 
 - I2C front and rear camera (AVStream2500, OV5670, OV8858) not recognized
-
-- Compared to Windows, white noise occurs a little on speakers
 
 - 3:2 resolution HiDPI of under 1913 * 1275 (3825 * 2550) not works through known method
 
