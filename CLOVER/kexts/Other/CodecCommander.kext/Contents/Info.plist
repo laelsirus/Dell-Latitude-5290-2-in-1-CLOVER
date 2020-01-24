@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+≈<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -126,7 +126,7 @@
 					<key>Perform Reset on External Wake</key>
 					<true/>
 					<key>Perform Reset on EAPD Fail</key>
-					<true/>
+					<false/>
 					<key>Send Delay</key>
 					<integer>300</integer>
 					<key>Sleep Nodes</key>
