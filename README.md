@@ -16,7 +16,7 @@
 
 ## BIOS/Clover Bootloader/macOS Version
 
-- BIOS : 1.11.2
+- BIOS : 1.12.1
 - Clover Bootloader : Above v2.5k
 - macOS : 10.14.X, 10.15.X
 
@@ -46,8 +46,8 @@
 ## Drivers64UEFI
 
 - ApfsDriverLoader-64.efi
-- AptioMemoryFix-64.efi
-- FSInject-64.efi
+- FwRuntimeServices.efi
+- OcQuirks.efi
 - VBoxHfs-64.efi
 - VirtualSmc.efi
 
@@ -90,7 +90,6 @@ But creating it for your system will help you manage power***
 - HiDPI 1920 * 1280 (3840 * 2560) can be added, but it requires more resources
 - It is recommended that you do a new ACPI patch on your system
 - Install 'SafeSleepUSB.app' to fix disk eject issues
-- Install 'Silent Player' to fix abnormal Headphone Jack operation when entering audio idle state while battery is in use
 - Rebuild kext cache for touchscreen activation
 - Install Karabiner-Elements.app to activate Alps touchpad that is disabled after touchscreen activation
 
@@ -164,8 +163,6 @@ Additional patches might be required for working Thunderbolt 3
   Fixed with SafeSleepUSB.app
 
 - Popping sound from Headphone Jack when entering audio idle state while battery in use  
-  Prevent this issue by installing 'Silent Player', which continuously plays silence  
-  This issue happens even after sleep while battery in use  
   Set the Input to Line In once in the System Preference - Sound, it works normally again  
   This issue is not fully resolved yet
 
