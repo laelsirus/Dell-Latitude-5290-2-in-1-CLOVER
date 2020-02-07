@@ -62,6 +62,16 @@
 					<key>Replace</key>
 					<data>RUNfXw==</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _RMV to XRMV</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1JNVg==</data>
+					<key>Replace</key>
+					<data>WFJNVg==</data>
+				</dict>
 			</array>
 		</dict>
 		<key>FixHeaders</key>
