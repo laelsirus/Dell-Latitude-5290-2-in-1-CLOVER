@@ -41,6 +41,26 @@
 - [sys] Shutdown Fix v2
 - [sys] SMBUS Fix
 - [GPIO] GPIO Controller Enable [SKL+]
+- Add 'XTB2 Method' just before 'XTBT Method'  
+        Method (XTB2, 2)
+        {
+            XTBT (Arg0, Arg1)
+        }
+- 'XTBT (TBSE, CPGN)' to 'XTB2 (TBSE, CPGN)'
+- 'HECI' to 'IMEI'
+
+
+## SSDT
+- SSDT-DEEPIDLE.aml
+- SSDT-EC.aml
+- SSDT-KEY-DELL-WN09.aml
+- SSDT-PNLF.aml
+- SSDT-PRTSC-F13.aml
+- SSDT-RMNE.aml
+- SSDT-TB3.aml
+- SSDT-TYPC.aml
+- SSDT-UIAC.aml
+- SSDT-UPRW.aml
 
 
 ## Drivers64UEFI
