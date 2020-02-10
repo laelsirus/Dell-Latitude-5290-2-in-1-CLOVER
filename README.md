@@ -51,14 +51,14 @@
 
 
 ## SSDT
-- SSDT-DEEPIDLE.aml
+- SSDT-DEEPIDLE.aml [For Thunderbolt 3 Model]
 - SSDT-EC.aml
 - SSDT-KEY-DELL-WN09.aml
 - SSDT-PNLF.aml
 - SSDT-PRTSC-F13.aml
 - SSDT-RMNE.aml
-- SSDT-TB3.aml
-- SSDT-TYPC.aml
+- SSDT-TB3.aml [For Thunderbolt 3 Model]
+- SSDT-TYPC.aml [For Thunderbolt 3 Model]
 - SSDT-UIAC.aml
 - SSDT-UPRW.aml
 
