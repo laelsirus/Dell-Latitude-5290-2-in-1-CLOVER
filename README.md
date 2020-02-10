@@ -28,6 +28,12 @@
 
 ## DSDT Patch
 
+- 'XTBT (TBSE, CPGN)' to 'XTB2 (TBSE, CPGN)'
+- Add 'Method (XTB2, 2)' just before 'Method (XTBT, 2, Serialized)'  
+        Method (XTB2, 2)
+        {
+            XTBT (Arg0, Arg1)
+        }
 - [misc] Remove _PRW from LID
 - [sys] AC Adapter Fix
 - [sys] Add IMEI
@@ -41,13 +47,7 @@
 - [sys] Shutdown Fix v2
 - [sys] SMBUS Fix
 - [GPIO] GPIO Controller Enable [SKL+]
-- Add 'XTB2 Method' just before 'XTBT Method'  
-        Method (XTB2, 2)
-        {
-            XTBT (Arg0, Arg1)
-        }
-- 'XTBT (TBSE, CPGN)' to 'XTB2 (TBSE, CPGN)'
-- 'HECI' to 'IMEI'
+- Rename 'HECI' to 'IMEI'
 
 
 ## SSDT
