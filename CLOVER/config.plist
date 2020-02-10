@@ -72,6 +72,34 @@
 					<key>Replace</key>
 					<data>WFJNVg==</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change UPRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					FBJVUFJXAHA=
+					</data>
+					<key>Replace</key>
+					<data>
+					FBJYUFJXAHA=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change GPRW to YPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					FEAGR1BSVwI=
+					</data>
+					<key>Replace</key>
+					<data>
+					FEAGWVBSVwI=
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>FixHeaders</key>
