@@ -63,6 +63,10 @@
 - SSDT-UIAC.aml
 - SSDT-UPRW.aml
 
+***SSDT-DEEPIDLE.aml enables USB Type C hot swapping after sleeping on Thunderbolt 3 models  
+However, it greatly reduces the power efficiency of sleep  
+Removing SSDT-DEEPIDLE.aml disables hot swapping of USB Type C after sleep***
+
 
 ## Drivers64UEFI
 
@@ -125,7 +129,7 @@ But creating it for your system will help you manage power***
 ***Thunderbolt 3***
 - Thunderbolt 3 needs testing
 
-***NullEthernet.kext & ssdt-rmne.aml***
+***NullEthernet.kext & SSDT-RMNE.aml***
 - Null Ethernet is a way to prevent a Mac address-based license for some software from being broken when a wireless card is absent or replaced (including iCloud)  
   If you do not need to consider blocking software licenses by changing your Mac address, you can remove it
 
