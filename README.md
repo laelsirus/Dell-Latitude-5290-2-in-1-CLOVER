@@ -51,6 +51,7 @@
 
 
 ## SSDT
+
 - SSDT-DEEPIDLE.aml [For Thunderbolt 3 Model]
 - SSDT-EC.aml
 - SSDT-KEY-DELL-WN09.aml
