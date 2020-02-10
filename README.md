@@ -93,7 +93,6 @@ But creating it for your system will help you manage power***
 - Rebuild kext cache for touchscreen activation
 - Install Karabiner-Elements.app to activate Alps touchpad that is disabled after touchscreen activation
 
-
 ***Intel® Core™ i5-8350U Processor***
 - CPUFriendDataProvider.kext has been modified to manage the operation of the 'Intel® Core ™ i5-8350U Processor'  
   If your CPU is not 'Intel® Core™ i5-8350U Processor', remove or regenerate the CPUFriendDataProvider.kext
@@ -102,10 +101,8 @@ But creating it for your system will help you manage power***
 - This build is compatible for 'Dell Latitude 5290 2-in-1' system uses iGPU of 'Intel® UHD Graphics 620'  
   If your iGPU is not 'Intel® UHD Graphics 620', additional graphics patches might be required
 
-***Thunderbolt 3 : Release Soon***
-- This build is compatible for 'Dell Latitude 5290 2-in-1' system without 'Thunderbolt 3'  
-For Thunderbolt 3 built-in model, it must repatch and regenerate DSDT.aml, SSDT-UIAC.aml, SSDT-USBX.aml, and USBPorts.kext  
-Additional patches might be required for working Thunderbolt 3
+***Thunderbolt 3***
+- Thunderbolt 3 needs testing
 
 ***NullEthernet.kext & ssdt-rmne.aml***
 - Null Ethernet is a way to prevent a Mac address-based license for some software from being broken when a wireless card is absent or replaced (including iCloud)  
@@ -155,18 +152,9 @@ Additional patches might be required for working Thunderbolt 3
 
 
 ## Issues
-- If USB device is connected to Full size USB port with power connected state, it wakes up immediately after sleeping  
-  Fixed after Full size USB port as internal port  
-  As a result, if you connect a device above USB 3.0 to the Full size USB port, it will be recognized as an internal disk icon
-
-- When the battery is in use, the disk not ejected properly after sleeping  
-  Fixed with SafeSleepUSB.app
-
 - Popping sound from Headphone Jack when entering audio idle state while battery in use  
   Set the Input to Line In once in the System Preference - Sound, it works normally again  
   This issue is not fully resolved yet
-
-- If wired USB LAN is connected with power connected state, it wakes up immediately after sleeping.
 
 - Wireless Communication - DW1830(BCM943602BAED) is not recommended on this model  
   &ensp; Issues 1 : When the battery is in use, bluetooth not works properly after sleep  
