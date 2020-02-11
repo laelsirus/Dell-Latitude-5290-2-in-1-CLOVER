@@ -52,14 +52,14 @@
 
 ## SSDT
 
-- SSDT-DEEPIDLE.aml [***Only For Thunderbolt 3 Model***]
+- SSDT-DEEPIDLE.aml ***[Only For Thunderbolt 3 Model]***
 - SSDT-EC.aml [USB Power Control]
 - SSDT-KEY-DELL-WN09.aml [Dell Keyboard]
 - SSDT-PNLF.aml [Brightness Control]
 - SSDT-PRTSC-F13.aml [PrtScr Key to F13 Key]
 - SSDT-RMNE.aml [Null Ethernet]
-- SSDT-TB3.aml [***Only For Thunderbolt 3 Model***]
-- SSDT-TYPC.aml [***Only For Thunderbolt 3 Model***]
+- SSDT-TB3.aml ***[Only For Thunderbolt 3 Model]***
+- SSDT-TYPC.aml ***[Only For Thunderbolt 3 Model]***
 - SSDT-UIAC.aml [USB Mapping]
 - SSDT-UPRW.aml [Prevent USB Issues on Sleep]
 
