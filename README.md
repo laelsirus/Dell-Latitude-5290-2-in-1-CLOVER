@@ -63,9 +63,9 @@
 - SSDT-UIAC.aml [USB Mapping]
 - SSDT-UPRW.aml [Prevent USB Issues on Sleep]
 
-***SSDT-DEEPIDLE.aml enables USB Type C hot swapping after sleep on Thunderbolt 3 models  
+***SSDT-DEEPIDLE.aml enables Type C hot swapping after sleep on Thunderbolt 3 models  
 However, it greatly reduces the power efficiency of sleep  
-Removing SSDT-DEEPIDLE.aml disables hot swapping of USB Type C after sleep***
+Removing SSDT-DEEPIDLE.aml disables hot swapping of Type C after sleep***
 
 
 ## ACPI DSDT Patches
@@ -74,7 +74,7 @@ Removing SSDT-DEEPIDLE.aml disables hot swapping of USB Type C after sleep***
 - change HECI to IMEI
 - change MEI to IMEI
 - change ECDV to EC [USB Fix]
-- change \_RMV to XRMV [USB Type C Hotplug Fix for Thunderbolt 3 Model]
+- change \_RMV to XRMV [Type C Hot Swap Fix for Thunderbolt 3 Model]
 - change UPRW to XPRW [Prevent USB Issues on Sleep]
 
 
@@ -161,6 +161,7 @@ But creating it for your system will help you manage power***
 - Brightness control
 - Lid Close Sleep with Magnetic Travel Keyboard
 - I2C touch screen Up to 5 points Gesture action (recognized as Magic Trackpad 2)
+- Thunderbolt Display
 - Sidecar
 
 ***Audio***
@@ -181,7 +182,7 @@ But creating it for your system will help you manage power***
 - Type C PD 2 Ports Charging, PowerShare
 - Sleep/Wake
 
-***Storage Device***
+***USB, Storage Ports***
 - Full Size/Type C USB 2.0, 3.0 Hot Swap
 - m.2 NVME 2280/ m.2 SATA 2280 1 Slot and m.2 NVME 2230(2242)/ m.2 SATA 2230(2242) 1 Slot
 - Thunderbolt 3
