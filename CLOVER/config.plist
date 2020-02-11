@@ -78,13 +78,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					FBJVUFJXAHA=
-					</data>
+					<data>FBJVUFJXAHA=</data>
 					<key>Replace</key>
-					<data>
-					FBJYUFJXAHA=
-					</data>
+					<data>FBJYUFJXAHA=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -92,13 +88,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					FEAGR1BSVwI=
-					</data>
+					<data>FEAGR1BSVwI=</data>
 					<key>Replace</key>
-					<data>
-					FEAGWVBSVwI=
-					</data>
+					<data>FEAGWVBSVwI=</data>
 				</dict>
 			</array>
 		</dict>
@@ -116,7 +108,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v debug=0x100 keepsyms=1</string>
+		<string>brcmfx-country=#a dart=0 -v debug=0x100 keepsyms=1</string>
 		<key>DefaultVolume</key>
 		<string>macOS</string>
 		<key>NeverHibernate</key>
@@ -137,11 +129,6 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>brcmfx-country</key>
-				<string>#a</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>device-id</key>

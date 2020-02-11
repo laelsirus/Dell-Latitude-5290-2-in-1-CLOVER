@@ -52,20 +52,30 @@
 
 ## SSDT
 
-- SSDT-DEEPIDLE.aml [For Thunderbolt 3 Model]
-- SSDT-EC.aml
-- SSDT-KEY-DELL-WN09.aml
-- SSDT-PNLF.aml
-- SSDT-PRTSC-F13.aml
-- SSDT-RMNE.aml
-- SSDT-TB3.aml [For Thunderbolt 3 Model]
-- SSDT-TYPC.aml [For Thunderbolt 3 Model]
-- SSDT-UIAC.aml
-- SSDT-UPRW.aml
+- SSDT-DEEPIDLE.aml [***Only For Thunderbolt 3 Model***]
+- SSDT-EC.aml [USB Power Control]
+- SSDT-KEY-DELL-WN09.aml [Dell Keyboard]
+- SSDT-PNLF.aml [Brightness Control]
+- SSDT-PRTSC-F13.aml [PrtScr Key to F13 Key]
+- SSDT-RMNE.aml [Null Ethernet]
+- SSDT-TB3.aml [***Only For Thunderbolt 3 Model***]
+- SSDT-TYPC.aml [***Only For Thunderbolt 3 Model***]
+- SSDT-UIAC.aml [USB Mapping]
+- SSDT-UPRW.aml [Prevent USB Issues on Sleep]
 
-***SSDT-DEEPIDLE.aml enables USB Type C hot swapping after sleeping on Thunderbolt 3 models  
+***SSDT-DEEPIDLE.aml enables USB Type C hot swapping after sleep on Thunderbolt 3 models  
 However, it greatly reduces the power efficiency of sleep  
 Removing SSDT-DEEPIDLE.aml disables hot swapping of USB Type C after sleep***
+
+
+## ACPI DSDT Patches
+- change GFX0 to IGPU [IGPU Fix]
+- change HDAS to HDEF [Audio Fix]
+- change HECI to IMEI
+- change MEI to IMEI
+- change ECDV to EC [USB Fix]
+- change \_RMV to XRMV [USB Type C Hotplug Fix for Thunderbolt 3 Model]
+- change UPRW to XPRW [Prevent USB Issues on Sleep]
 
 
 ## Drivers64UEFI
@@ -104,6 +114,12 @@ Removing SSDT-DEEPIDLE.aml disables hot swapping of USB Type C after sleep***
 But creating it for your system will help you manage power***
 
 
+## Boot Arguments
+
+- brcmfx-country=#a [Set country code for universal]
+- dart=0 [Sidecar activation]
+
+
 ## ETC
 
 ***After Installation***
@@ -126,9 +142,6 @@ But creating it for your system will help you manage power***
 - This build is compatible for 'Dell Latitude 5290 2-in-1' system uses iGPU of 'Intel® UHD Graphics 620'  
   If your iGPU is not 'Intel® UHD Graphics 620', additional graphics patches might be required
 
-***Thunderbolt 3***
-- Thunderbolt 3 needs testing
-
 ***NullEthernet.kext & SSDT-RMNE.aml***
 - Null Ethernet is a way to prevent a Mac address-based license for some software from being broken when a wireless card is absent or replaced (including iCloud)  
   If you do not need to consider blocking software licenses by changing your Mac address, you can remove it
@@ -148,6 +161,7 @@ But creating it for your system will help you manage power***
 - Brightness control
 - Lid Close Sleep with Magnetic Travel Keyboard
 - I2C touch screen Up to 5 points Gesture action (recognized as Magic Trackpad 2)
+- Sidecar
 
 ***Audio***
 - Built-in speaker
@@ -170,13 +184,15 @@ But creating it for your system will help you manage power***
 ***Storage Device***
 - Full Size/Type C USB 2.0, 3.0 Hot Swap
 - m.2 NVME 2280/ m.2 SATA 2280 1 Slot and m.2 NVME 2230(2242)/ m.2 SATA 2230(2242) 1 Slot
+- Thunderbolt 3
 
-***Wireless communication***
+***Wireless Communication***
 - iMessage/FaceTime/App Store
-- Wi-Fi, Bluetooth, Airdrop, Continuity with macOS compatible wireless card
+- Wi-Fi, Bluetooth, Airdrop, Sidecar, Continuity with macOS compatible wireless card
 
 
 ## Issues
+
 - Popping sound from Headphone Jack when entering audio idle state while battery in use  
   Set the Input to Line In once in the System Preference - Sound, it works normally again  
   This issue is not fully resolved yet
@@ -186,6 +202,8 @@ But creating it for your system will help you manage power***
   &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; It needs to reinstall the Bluetooth driver on Windows to get back to normal  
   &ensp; Issues 2 : If check 'Wake for Wi-Fi network access', wifi speed will be very slow after sleep  
   BCM94352Z(DW1560) does not have this issue, so it is recommended
+
+- Thunderbolt 3 hot swap works but kernel panic may occur when Thunderbolt 3 device is disconnected
 
 - WWAN communication via WWAN card, USIM, and Legacy_Sierra_QMI.kext is feasible, but has not been tested yet
 
