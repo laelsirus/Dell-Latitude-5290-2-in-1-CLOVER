@@ -116,8 +116,8 @@ But creating it for your system will help you manage power***
 
 ## Boot Arguments
 
-- brcmfx-country=#a [Set country code for universal]
-- dart=0 [Sidecar activation]
+- brcmfx-country=#a [Set Country Code for Universal]
+- dart=0 [Sidecar Activation]
 
 
 ## ETC
