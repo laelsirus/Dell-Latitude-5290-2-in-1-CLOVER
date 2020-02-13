@@ -80,6 +80,8 @@ to
 - [GPIO] GPIO Controller Enable [SKL+]
 - Rename ```HECI``` to ```IMEI```
 
+***Modify DSDT on your system to prevent kernel panic***
+
 
 ## SSDT
 
