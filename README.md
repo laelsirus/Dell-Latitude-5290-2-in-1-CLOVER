@@ -69,13 +69,15 @@ Removing SSDT-DEEPIDLE.aml disables hot swapping of Type C after sleep***
 
 
 ## ACPI DSDT Patches
+
 - change GFX0 to IGPU [IGPU Fix]
 - change HDAS to HDEF [Audio Fix]
 - change HECI to IMEI
 - change MEI to IMEI
 - change ECDV to EC [USB Fix]
-- change \_RMV to XRMV [Type C Hot Swap Fix for Thunderbolt 3 Model]
 - change UPRW to XPRW [Prevent USB Issues on Sleep]
+- change GPRW to YPRW [Prevent USB Issues on Sleep]
+- change \_RMV to XRMV [Type C Hot Swap Fix for ***Thunderbolt 3 Model***]
 
 
 ## Drivers64UEFI
@@ -116,8 +118,8 @@ But creating it for your system will help you manage power***
 
 ## Boot Arguments
 
-- brcmfx-country=#a [Set Country Code for Universal]
 - dart=0 [Sidecar Activation]
+- brcmfx-country=#a [Set Country Code for Universal]
 
 
 ## ETC
