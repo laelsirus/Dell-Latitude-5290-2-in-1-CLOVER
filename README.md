@@ -29,7 +29,7 @@
 ## DSDT Patch
 
 - Edit syntax error from  
-                If (LEqual (PM6H, One))
+'''                If (LEqual (PM6H, One))
                 {
                     CreateBitField (BUF0, \_SB.PCI0._Y0C._RW, ECRW)  // _RW_: Read-Write Status
                     Store (Zero, ECRW (If (PM0H)
@@ -38,6 +38,7 @@
                                 Store (Zero, F0LN)
                             }))
                 }  
+'''
 to  
                 If (LEqual (PM6H, One))
                 {
