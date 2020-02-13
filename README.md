@@ -153,6 +153,11 @@ But creating it for your system will help you manage power***
 - 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
 
 
+***For Install OSX***
+- Add Boot Argument : -no_compat_check
+- Add FakeCPUID;Skylake H : 0x0506E3
+
+
 ## What Works
 
 ***Graphics/Display***
