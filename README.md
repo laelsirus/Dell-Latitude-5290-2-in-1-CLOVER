@@ -29,7 +29,8 @@
 ## DSDT Patch
 
 - Edit syntax error from  
-'''                If (LEqual (PM6H, One))
+```
+                If (LEqual (PM6H, One))
                 {
                     CreateBitField (BUF0, \_SB.PCI0._Y0C._RW, ECRW)  // _RW_: Read-Write Status
                     Store (Zero, ECRW (If (PM0H)
@@ -37,9 +38,10 @@
                                 CreateDWordField (BUF0, \_SB.PCI0._Y0D._LEN, F0LN)  // _LEN: Length
                                 Store (Zero, F0LN)
                             }))
-                }  
-'''
+                }
+```
 to  
+```
                 If (LEqual (PM6H, One))
                 {
                     CreateBitField (BUF0, \_SB.PCI0._Y0C._RW, ECRW)  // _RW_: Read-Write Status
@@ -52,12 +54,15 @@ to
                     CreateDWordField (BUF0, \_SB.PCI0._Y0D._LEN, F0LN)  // _LEN: Length
                     Store (Zero, F0LN)
                 }
+```
 - 'XTBT (TBSE, CPGN)' to 'XTB2 (TBSE, CPGN)'
 - Add 'Method (XTB2, 2)' just before 'Method (XTBT, 2, Serialized)'  
+```
         Method (XTB2, 2)
         {
             XTBT (Arg0, Arg1)
         }
+```
 - [misc] Remove _PRW from LID
 - [sys] AC Adapter Fix
 - [sys] Add IMEI
