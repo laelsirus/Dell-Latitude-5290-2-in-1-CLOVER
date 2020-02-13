@@ -154,8 +154,8 @@ But creating it for your system will help you manage power***
 
 
 ***For Install OSX***
-- Add Boot Argument : -no_compat_check
 - Add FakeCPUID;Skylake H : 0x0506E3
+- Add Kext for NVME : NVMeGeneric.kext
 
 
 ## What Works
