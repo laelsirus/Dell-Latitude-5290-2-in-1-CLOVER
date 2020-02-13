@@ -153,8 +153,9 @@ But creating it for your system will help you manage power***
 - 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
 
 
-***For Install OSX***
+***For Install OSX Elcapitan***
 - Add FakeCPUID;Skylake H : 0x0506E3
+- Edit SMBIOS to MacBookPro12,1
 - Add Kext for NVME : NVMeGeneric.kext
 
 
