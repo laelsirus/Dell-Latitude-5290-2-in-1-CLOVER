@@ -63,6 +63,8 @@
 - SSDT-UIAC.aml [USB Mapping]
 - SSDT-UPRW.aml [Prevent USB Issues on Sleep]
 
+***Modify DSDT on your system to prevent kernel panic***
+
 
 ## ACPI DSDT Patches
 
