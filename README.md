@@ -29,6 +29,7 @@
 ## DSDT Patch
 
 - Edit syntax error  
+
 from
 ```
                 If (LEqual (PM6H, One))
@@ -41,7 +42,7 @@ from
                             }))
                 }
 ```
-  to
+to
 ```
                 If (LEqual (PM6H, One))
                 {
