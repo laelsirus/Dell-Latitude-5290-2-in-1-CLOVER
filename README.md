@@ -63,10 +63,6 @@
 - SSDT-UIAC.aml [USB Mapping]
 - SSDT-UPRW.aml [Prevent USB Issues on Sleep]
 
-***SSDT-DEEPIDLE.aml enables Type C hot swapping after sleep on Thunderbolt 3 models  
-However, it greatly reduces the power efficiency of sleep  
-Removing SSDT-DEEPIDLE.aml disables hot swapping of Type C after sleep***
-
 
 ## ACPI DSDT Patches
 
@@ -208,6 +204,10 @@ But creating it for your system will help you manage power***
 
 - Thunderbolt 3 hot swap works but kernel panic may occur when Thunderbolt 3 device is disconnected
 
+- SSDT-DEEPIDLE.aml enables Type C hot swapping after sleep on Thunderbolt 3 models  
+However, it greatly reduces the power efficiency of sleep  
+Removing SSDT-DEEPIDLE.aml disables type-C hot swapping after sleep, but sleep power efficiency is normal
+
 - WWAN communication via WWAN card, USIM, and Legacy_Sierra_QMI.kext is feasible, but has not been tested yet
 
 - Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID may not be recognized for new installations or OS updates  
@@ -220,8 +220,6 @@ But creating it for your system will help you manage power***
   If you use modified Sinetek-rtsx.kext, you can use HFS+ formatted SD card, but there are still some problems
 
 - I2C front and rear camera (AVStream2500, OV5670, OV8858) not recognized
-
-- 3:2 resolution HiDPI of under 1913 * 1275 (3825 * 2550) not works through known method
 
 - FileVault2 not works
 
