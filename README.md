@@ -78,7 +78,7 @@ to
 - [sys] Shutdown Fix v2
 - [sys] SMBUS Fix
 - [GPIO] GPIO Controller Enable [SKL+]
-- Rename 'HECI' to 'IMEI'
+- Rename ```HECI``` to ```IMEI```
 
 
 ## SSDT
