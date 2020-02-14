@@ -96,10 +96,8 @@ to
 - SSDT-UIAC.aml [USB Mapping]
 - SSDT-UPRW.aml [Prevent wake from USB]
 
-***It is recommended to extract and patch the DSDT from your device to prevent kernel panic***
 
-
-## CLOVER ACPI Hotpatch
+## ACPI DSDT Patches
 
 - change GFX0 to IGPU [IGPU Fix]
 - change HDAS to HDEF [Audio Fix]
