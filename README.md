@@ -135,7 +135,7 @@ to
 - SMCLightSensor.kext
 - SMCProcessor.kext
 - SMCSuperIO.kext
-- USBPorts.kext    -    Generated with Hackintool, HS / SS port matching and realignment
+- USBPorts.kext    -    Generated with Hackintool, HS/SS port matching and realignment
 - VirtualSMC.kext
 - VoodooI2C.kext
 - VoodooI2CHID.kext
