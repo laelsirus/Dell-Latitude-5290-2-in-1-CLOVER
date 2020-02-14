@@ -235,8 +235,8 @@ But creating it for your system will help you manage power***
 
 ## Issues
 
-- Changing the connection of the headphone jack while sleep causes noise and output problem  
-Sleep and wake again to solve this problem
+- Changing the headphone jack connection while in battery use and in sleep mode causes noise and output problems  
+To solve this problem, sleep and wake up again
 
 - Wireless Communication - DW1830(BCM943602BAED) is not recommended on this model  
   &ensp; Issues 1 : When the battery is in use, bluetooth not works properly after sleep  
