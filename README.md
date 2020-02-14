@@ -127,6 +127,7 @@ to
 - BrcmBluetoothInjector.kext
 - BrcmFirmwareData.kext
 - BrcmPatchRAM3.kext
+- CodecCommander.kext
 - CPUFriend.kext
 - CPUFriendDataProvider.kext    -    Generated with one-key-cpufriend by stevezhengshiqi
 - EFICheckDisabler.kext
@@ -162,10 +163,11 @@ But creating it for your system will help you manage power***
     debug=0x100  
     keepsyms=1
 - Additional patches are required for iMessage and Facetime activation
-- HiDPI 1920 * 1280 (3840 * 2560) can be added, but it requires more resources
-- It is recommended that you do a new ACPI patch on your system
 - Rebuild kext cache for touchscreen activation
 - Install Karabiner-Elements.app to activate Alps touchpad that is disabled after touchscreen activation
+- Install ALCPlugFix-ALC225.dmg for prevent headphone issue
+- HiDPI 1920 * 1280 (3840 * 2560) can be added, but it requires more resources
+- It is recommended that you do a new ACPI patch on your system
 
 ***Intel® Core™ i5-8350U Processor***
 - CPUFriendDataProvider.kext has been modified to manage the operation of the 'Intel® Core ™ i5-8350U Processor'  
@@ -234,8 +236,8 @@ But creating it for your system will help you manage power***
 ## Issues
 
 - Popping sound from Headphone Jack when entering audio idle state while battery in use  
-  Set the Input to Line In once in the System Preference - Sound, it works normally again  
-  This issue is not fully resolved yet
+  Fixed with modified Sniki-ALCPlugFix
+  Install ALCPlugFix-ALC225.dmg
 
 - Wireless Communication - DW1830(BCM943602BAED) is not recommended on this model  
   &ensp; Issues 1 : When the battery is in use, bluetooth not works properly after sleep  
