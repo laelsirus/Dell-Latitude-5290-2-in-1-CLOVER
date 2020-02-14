@@ -106,8 +106,8 @@ to
 - change HECI to IMEI
 - change MEI to IMEI
 - change ECDV to EC [USB Fix]
-- change UPRW to XPRW [Prevent USB Issues on Sleep]
-- change GPRW to YPRW [Prevent USB Issues on Sleep]
+- change UPRW to XPRW [Prevent wake from USB]
+- change GPRW to YPRW [Prevent wake from USB]
 - change \_RMV to XRMV [Type C Hot Swap Fix for ***Thunderbolt 3 Model***]
 
 
