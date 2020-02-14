@@ -218,7 +218,7 @@
 		<key>DellSMBIOSPatch</key>
 		<true/>
 		<key>KernelPm</key>
-		<false/>
+		<true/>
 		<key>KernelToPatch</key>
 		<array>
 			<dict>
@@ -246,6 +246,20 @@
 		</array>
 		<key>KextsToPatch</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent AGDP from loading</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>ugUAAAA=</data>
+				<key>InfoPlistPatch</key>
+				<false/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleGraphicsDevicePolicy</string>
+				<key>Replace</key>
+				<data>ugAAAAA=</data>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
