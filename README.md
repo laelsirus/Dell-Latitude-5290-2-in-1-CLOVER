@@ -155,24 +155,18 @@ But creating it for your system will help you manage power***
 ## ETC
 
 ***After Installation***
-- Turn off FileVault2 (necessary)  
-- Remove these boot flags  
+- Remove these Boot Arguments
     -v  
     debug=0x100  
     keepsyms=1
-- Additional patches are required for iMessage and Facetime activation
-- Rebuild kext cache for touchscreen activation
-- Install Karabiner-Elements.app to activate Alps touchpad that is disabled after touchscreen activation
+- Additional patches are required for iMessage and Facetime activation (Board Serial Number, Serial Number, SmUUID)
+- Rebuild kext cache for touch screen activation [sudo kextcache -i /]
+- Install Karabiner-Elements.app to activate Alps Touchpad that is disabled after touch screen activation
 - HiDPI 1920 * 1280 (3840 * 2560) can be added, but it requires more resources
-- It is recommended that you do a new ACPI patch on your system
 
 ***Intel® Core™ i5-8350U Processor***
 - CPUFriendDataProvider.kext has been modified to manage the operation of the 'Intel® Core ™ i5-8350U Processor'  
   If your CPU is not 'Intel® Core™ i5-8350U Processor', remove or regenerate the CPUFriendDataProvider.kext
-
-***Intel® UHD Graphics 620***
-- This build is compatible for 'Dell Latitude 5290 2-in-1' system uses iGPU of 'Intel® UHD Graphics 620'  
-  If your iGPU is not 'Intel® UHD Graphics 620', additional graphics patches might be required
 
 ***NullEthernet.kext & SSDT-RMNE.aml***
 - Null Ethernet is a way to prevent a Mac address-based license for some software from being broken when a wireless card is absent or replaced (including iCloud)  
@@ -184,10 +178,9 @@ But creating it for your system will help you manage power***
 - 'Fn' + 'b' = F15 (Brightness up)
 - 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
 
-
 ***For Install OSX Elcapitan***
 - Add FakeCPUID;Skylake H : 0x0506E3
-- Edit SMBIOS to MacBookPro12,1
+- Edit SMBIOS : MacBookPro12,1
 - Add Kext for NVME : HackrNVMeFamily-10_11_6.kext
 
 
@@ -195,11 +188,9 @@ But creating it for your system will help you manage power***
 
 ***Graphics/Display***
 - Intel® UHD Graphics 620 QE/CI, 2048MB vRam
-- Type C DP 2 ports Video / Audio output Hot Swap
+- Type C DP 2 ports Video/Audio output Hot Swap
+- Thunderbolt Display output
 - Brightness control
-- Lid Close Sleep with Magnetic Travel Keyboard
-- I2C touch screen Up to 5 points Gesture action (recognized as Magic Trackpad 2)
-- Thunderbolt Display
 - Sidecar
 
 ***Audio***
@@ -210,48 +201,40 @@ But creating it for your system will help you manage power***
 
 ***Input***
 - I2C touch screen Up to 5 points Gesture action (recognized as Magic Trackpad 2)
-- I2C Keyboard (Magnetic Travel Keyboard) with Backlight
-- Touchpad (Magnetic Travel Keyboard, recognized as mouse)
-- Volume button, window button, power button
+- PS2 Keyboard (Dell Latitude 2-in-1 Travel Keyboard) with Backlight
+- Touchpad (Travel Keyboard, recognized as mouse)
+- Volume button, window button(Option Key), power button(Sleep/Power Key)
 
 ***Power Management***
 - CPU/Speed Step
 - Battery
 - Type C PD 2 Ports Charging, PowerShare
-- Sleep/Wake
+- Sleep/Wake : For Thunderbolt 3 model, see 'SSDT-DEEPIDLE.aml' in [Issues]
+- Lid Close Sleep with Travel Keyboard
 
-***USB, Storage Ports***
+***USB, Storage***
 - Full Size/Type C USB 2.0, 3.0 Hot Swap
-- m.2 NVME 2280/ m.2 SATA 2280 1 Slot and m.2 NVME 2230(2242)/ m.2 SATA 2230(2242) 1 Slot
+- m.2 NVME 2280/ m.2 SATA 2280 1 Slot and m.2 NVME 2230(2242)/m.2 SATA 2230(2242) 1 Slot
 - Thunderbolt 3
 
 ***Wireless Communication***
 - iMessage/FaceTime/App Store
-- Wi-Fi, Bluetooth, Airdrop, Sidecar, Continuity with macOS compatible wireless card
+- Wi-Fi, Bluetooth, Airdrop, Sidecar, Continuity function
 
 
 ## Issues
 
 - Changing the headphone jack connection state while in battery use and in sleep mode causes noise and output problems  
-To solve this problem, sleep and wake up again
-
-- Wireless Communication - DW1830(BCM943602BAED) is not recommended on this model  
-  &ensp; Issues 1 : When the battery is in use, bluetooth not works properly after sleep  
-  &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; It needs to reinstall the Bluetooth driver on Windows to get back to normal  
-  &ensp; Issues 2 : If check 'Wake for Wi-Fi network access', wifi speed will be very slow after sleep  
-  BCM94352Z(DW1560) does not have this issue, so it is recommended
+  To solve this problem, sleep and wake up again
 
 - Thunderbolt 3 hot swap works but kernel panic may occur when Thunderbolt 3 device is disconnected
 
 - SSDT-DEEPIDLE.aml enables Type C hot swapping after sleep on Thunderbolt 3 models  
-However, it greatly reduces the power efficiency of sleep  
-Removing SSDT-DEEPIDLE.aml disables type-C hot swapping after sleep, but sleep power efficiency is normal
-
-- WWAN communication via WWAN card, USIM, and Legacy_Sierra_QMI.kext is feasible, but has not been tested yet
+  However, it greatly reduces the power efficiency of sleep  
+  Removing SSDT-DEEPIDLE.aml disables Type C hot swapping after sleep, but sleep power efficiency is normal
 
 - Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID may not be recognized for new installations or OS updates  
-  In this case touchscreen works after kext cache rebuild (sudo kextcache -i /)  
-  Once recognized, the touch screen will not be lost  
+  In this case touch screen works after kext cache rebuild [sudo kextcache -i /]  
   After recognized the touch screen, the Alps touchpad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner  
   Check 'Alps Touchpad (Alps)' in 'Karabiner-Elements Preferences - Devices - Basic configuration'
 
