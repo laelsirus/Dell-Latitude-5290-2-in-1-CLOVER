@@ -58,7 +58,7 @@ to
                 }
 ```
 - Rename ```XTBT (TBSE, CPGN)``` to ```XTB2 (TBSE, CPGN)```
-- Add 'Method (XTB2, 2)' just before 'Method (XTBT, 2, Serialized)'
+- Add 'Method (XTB2, 2)' just before ```Method (XTBT, 2, Serialized)```
 ```
         Method (XTB2, 2)
         {
