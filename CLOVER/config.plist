@@ -233,13 +233,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Disable panic kext logging on 10.14 release kernel (credit vit9696)</string>
+				<string>Disable panic kext logging on 10.14.x,10.15.x Release kernel</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>igKEwHRC</data>
-				<key>MatchOS</key>
-				<string>10.14.x</string>
+				<data>igKEwHRH</data>
 				<key>Replace</key>
 				<data>igKEwOtC</data>
 			</dict>
@@ -248,7 +246,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Prevent AGDP from loading</string>
+				<string>Disable board-id check to prevent no signal © lvs1974, Pike R. Alpha, vit9696</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
