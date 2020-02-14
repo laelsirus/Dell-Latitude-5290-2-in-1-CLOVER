@@ -96,7 +96,7 @@ to
 - SSDT-UIAC.aml [USB Mapping]
 - SSDT-UPRW.aml [Prevent wake from USB]
 
-***Modify DSDT on your system to prevent kernel panic***
+***It is recommended to extract and patch the DSDT from your device to prevent kernel panic***
 
 
 ## ACPI DSDT Patches
