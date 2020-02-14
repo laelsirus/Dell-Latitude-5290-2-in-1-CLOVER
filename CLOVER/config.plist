@@ -231,16 +231,6 @@
 				<key>Replace</key>
 				<data>ILniAAAAkJA=</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Disable panic kext logging on 10.14.x,10.15.x Release kernel</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>igKEwHRH</data>
-				<key>Replace</key>
-				<data>igKEwOtC</data>
-			</dict>
 		</array>
 		<key>KextsToPatch</key>
 		<array>
