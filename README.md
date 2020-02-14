@@ -94,7 +94,7 @@ to
 - SSDT-TB3.aml ***[Only For Thunderbolt 3 Model]***
 - SSDT-TYPC.aml ***[Only For Thunderbolt 3 Model]***
 - SSDT-UIAC.aml [USB Mapping]
-- SSDT-UPRW.aml [Prevent USB Issues on Sleep]
+- SSDT-UPRW.aml [Prevent wake from USB]
 
 ***Modify DSDT on your system to prevent kernel panic***
 
