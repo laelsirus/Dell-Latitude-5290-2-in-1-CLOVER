@@ -54,6 +54,8 @@
 				<string>Disabled HDMI</string>
 				<key>10de</key>
 				<string>Disabled HDMI</string>
+				<key>10ec_0225</key>
+				<string>Realtek ALC283,etc</string>
 				<key>10ec_0233</key>
 				<string>Realtek ALC283,etc</string>
 				<key>10ec_0235</key>
@@ -223,10 +225,10 @@
 						<dict>
 							<key>Command</key>
 							<data>
-							AZcHJQ==
+							AZcHIA==
 							</data>
 							<key>Comment</key>
-							<string>0x19 SET_PIN_WIDGET_CONTROL 0x25</string>
+							<string>0x19 SET_PIN_WIDGET_CONTROL 0x20</string>
 							<key>On Init</key>
 							<true/>
 							<key>On Sleep</key>
@@ -249,12 +251,6 @@
 							<true/>
 						</dict>
 					</array>
-					<key>Perform Reset</key>
-					<false/>
-					<key>Send Delay</key>
-					<integer>10</integer>
-					<key>Sleep Nodes</key>
-					<false/>
 				</dict>
 				<key>Realtek ALC292</key>
 				<dict>

@@ -127,7 +127,7 @@ to
 - BrcmBluetoothInjector.kext
 - BrcmFirmwareData.kext
 - BrcmPatchRAM3.kext
-- CodecCommander.kext
+- CodecCommander.kext    -    Add Codec Profile, Edit Custom Commands
 - CPUFriend.kext
 - CPUFriendDataProvider.kext    -    Generated with one-key-cpufriend by stevezhengshiqi
 - EFICheckDisabler.kext
@@ -235,9 +235,8 @@ But creating it for your system will help you manage power***
 
 ## Issues
 
-- Popping sound from Headphone Jack when entering audio idle state while battery in use  
-  Fixed with modified Sniki-ALCPlugFix
-  Install ALCPlugFix-ALC225.dmg
+- Changing the connection of the headphone jack while sleep causes noise and output problems  
+In this case, sleep and wake again
 
 - Wireless Communication - DW1830(BCM943602BAED) is not recommended on this model  
   &ensp; Issues 1 : When the battery is in use, bluetooth not works properly after sleep  
