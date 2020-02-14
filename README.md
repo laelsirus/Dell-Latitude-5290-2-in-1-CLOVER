@@ -99,7 +99,7 @@ to
 ***It is recommended to extract and patch the DSDT from your device to prevent kernel panic***
 
 
-## ACPI DSDT Patches
+## CLOVER ACPI Hotpatch
 
 - change GFX0 to IGPU [IGPU Fix]
 - change HDAS to HDEF [Audio Fix]
