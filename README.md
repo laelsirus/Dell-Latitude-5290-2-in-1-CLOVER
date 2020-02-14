@@ -165,7 +165,6 @@ But creating it for your system will help you manage power***
 - Additional patches are required for iMessage and Facetime activation
 - Rebuild kext cache for touchscreen activation
 - Install Karabiner-Elements.app to activate Alps touchpad that is disabled after touchscreen activation
-- Install ALCPlugFix-ALC225.dmg for prevent headphone issue
 - HiDPI 1920 * 1280 (3840 * 2560) can be added, but it requires more resources
 - It is recommended that you do a new ACPI patch on your system
 
