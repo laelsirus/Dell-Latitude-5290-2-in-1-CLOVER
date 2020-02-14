@@ -191,7 +191,7 @@ But creating it for your system will help you manage power***
 ***For Install OSX Elcapitan***
 - Add FakeCPUID;Skylake H : 0x0506E3
 - Edit SMBIOS to MacBookPro12,1
-- Add Kext for NVME : NVMeGeneric.kext
+- Add Kext for NVME : HackrNVMeFamily-10_11_6.kext
 
 
 ## What Works
