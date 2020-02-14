@@ -95,7 +95,7 @@
 - SSDT-TB3.aml ***[썬더볼트 3 모델 한정]***
 - SSDT-TYPC.aml ***[썬더볼트 3 모델 한정]***
 - SSDT-UIAC.aml [USB 맵핑]
-- SSDT-UPRW.aml [잠자기 상태에서 USB로 인한 깨우기 방지]
+- SSDT-UPRW.aml [잠자기 상태에서 USB로 인한 깨우기 방지, 기타 USB 이슈 해결]
 
 
 ## 클로버 ACPI 핫패치
