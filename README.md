@@ -264,3 +264,7 @@ But creating it for your system will help you manage power***
 
 **Edited USB Ports**
 ![08USBEdit](https://user-images.githubusercontent.com/46496967/60283655-a49ba380-9944-11e9-98ad-48ce1f903b61.png)
+
+
+README_KR
+https://github.com/laelsirus/Dell-Latitude-5290-2-in-1-UHD620-iGPU-CLOVER/blob/master/README_KR.md
