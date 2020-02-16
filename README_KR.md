@@ -146,7 +146,7 @@
 ***CPUFriend.kext, CPUFriendDataProvider.kext는 필수 kext가 아니지만 본인의 시스템에 맞게 제작하면 전원 관리에 도움이 됩니다***
 
 
-## Boot Arguments
+## 클로버 Boot Arguments
 
 - dart=0 [사이드카 활성화]
 - brcmfx-country=#a [범용 국가 코드로 지정]

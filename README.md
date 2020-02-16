@@ -146,11 +146,54 @@ to
 But creating it for your system will help you manage power***
 
 
-## Boot Arguments
+## CLOVER Boot Arguments
 
 - dart=0 [Sidecar Activation]
 - brcmfx-country=#a [Set Country Code for Universal]
 
+
+## CLOVER Devices-Properties
+
+- Set Audio Layout-ID, Enable Display Audio
+```
+      <key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+      <dict>
+        <key>device-id</key>
+        <data>cKEAAA==</data>
+        <key>layout-id</key>
+        <data>HgAAAA==</data>
+      </dict>
+```
+- Intel® UHD Graphics 620
+```
+      <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+      <dict>
+        <key>AAPL,GfxYTile</key>
+        <data>AQAAAA==</data>
+        <key>AAPL,ig-platform-id</key>
+        <data>AgAmWQ==</data>
+        <key>device-id</key>
+        <data>FlkAAA==</data>
+        <key>dpcd-max-link-rate</key>
+        <data>CgAAAA==</data>
+        <key>enable-dpcd-max-link-rate-fix</key>
+        <data>AQAAAA==</data>
+        <key>enable-hdmi20</key>
+        <data>AQAAAA==</data>
+        <key>framebuffer-con0-alldata</key>
+        <data>AAASAAIAAACYAAAAAQUSAAAEAADHAwAAAgQSAAAEAADHAwAA</data>
+        <key>framebuffer-con0-enable</key>
+        <data>AQAAAA==</data>
+        <key>framebuffer-fbmem</key>
+        <data>AACQAA==</data>
+        <key>framebuffer-patch-enable</key>
+        <data>AQAAAA==</data>
+        <key>framebuffer-stolenmem</key>
+        <data>AAAwAQ==</data>
+        <key>framebuffer-unifiedmem</key>
+        <data>AAAAgA==</data>
+      </dict>
+```
 
 ## ETC
 
