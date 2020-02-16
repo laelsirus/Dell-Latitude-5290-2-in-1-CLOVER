@@ -79,6 +79,38 @@ to
 - [sys] SMBUS Fix
 - [GPIO] GPIO Controller Enable [SKL+]
 - Rename ```HECI``` to ```IMEI```
+- Edit BRT6 Method  
+
+from
+```
+        Method (BRT6, 2, NotSerialized)
+        {
+            If (LEqual (Arg0, One))
+            {
+                Notify (LCD, 0x86)
+            }
+
+            If (And (Arg0, 0x02))
+            {
+                Notify (LCD, 0x87)
+            }
+        }
+```
+to
+```
+        Method (BRT6, 2, NotSerialized)
+        {
+            If (LEqual (Arg0, One))
+            {
+                Notify (^^LPCB.PS2K, 0x0406)
+            }
+
+            If (And (Arg0, 0x02))
+            {
+                Notify (^^LPCB.PS2K, 0x0405)
+            }
+        }
+```
 
 ***Modify DSDT on your system to prevent kernel panic***
 
@@ -87,7 +119,6 @@ to
 
 - SSDT-DEEPIDLE.aml ***[Only For Thunderbolt 3 Model]***
 - SSDT-EC.aml [USB Power Control]
-- SSDT-KEY-DELL-WN09.aml [Dell Keyboard]
 - SSDT-PNLF.aml [Brightness Control]
 - SSDT-PRTSC-F13.aml [PrtScr Key to F13 Key]
 - SSDT-RMNE.aml [Null Ethernet]
@@ -95,6 +126,7 @@ to
 - SSDT-TYPC.aml ***[Only For Thunderbolt 3 Model]***
 - SSDT-UIAC.aml [USB Mapping]
 - SSDT-UPRW.aml [Prevent wake from USB, Fix some USB issues]
+- SSDT-XOSI.aml [OS Check Fix for Brightness Control Key]
 
 
 ## CLOVER ACPI Hotpatch
@@ -104,6 +136,8 @@ to
 - change HECI to IMEI
 - change MEI to IMEI
 - change ECDV to EC [USB Fix]
+- change OSID to XSID [OS Check Fix for Brightness Control Key]
+- change \_OSI to XOSI [OS Check Fix for Brightness Control Key]
 - change UPRW to XPRW [Prevent wake from USB]
 - change GPRW to YPRW [Prevent wake from USB]
 - change \_RMV to XRMV [Type C Hot Swap Fix for ***Thunderbolt 3 Model***]
@@ -218,8 +252,8 @@ But creating it for your system will help you manage power***
 
 ***Fn Key***
 - 'Fn' + 'r' || PrtScr = F13
-- 'Fn' + 's' = F14 (Brightness down)
-- 'Fn' + 'b' = F15 (Brightness up)
+- 'Fn' + 'F11' || 'Fn' + 's' = F14 (Brightness down)
+- 'Fn' + 'F12' || 'Fn' + 'b' = F15 (Brightness up)
 - 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
 
 ***For Install OSX Elcapitan***
