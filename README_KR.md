@@ -80,6 +80,38 @@
 - [sys] SMBUS Fix
 - [GPIO] GPIO Controller Enable [SKL+]
 - ```HECI``` 를 ```IMEI``` 으로 찾아 바꾸기
+- BRT6 Method 수정  
+
+수정 전
+```
+        Method (BRT6, 2, NotSerialized)
+        {
+            If (LEqual (Arg0, One))
+            {
+                Notify (LCD, 0x86)
+            }
+
+            If (And (Arg0, 0x02))
+            {
+                Notify (LCD, 0x87)
+            }
+        }
+```
+수정 후
+```
+        Method (BRT6, 2, NotSerialized)
+        {
+            If (LEqual (Arg0, One))
+            {
+                Notify (^^LPCB.PS2K, 0x0406)
+            }
+
+            If (And (Arg0, 0x02))
+            {
+                Notify (^^LPCB.PS2K, 0x0405)
+            }
+        }
+```
 
 ***커널 패닉을 방지하기 위해 본인의 기기에서 DSDT를 추출하여 패치하는 것을 권장합니다***
 
@@ -88,7 +120,6 @@
 
 - SSDT-DEEPIDLE.aml ***[썬더볼트 3 모델 한정]***
 - SSDT-EC.aml [USB 전력 제어]
-- SSDT-KEY-DELL-WN09.aml [델 키보드]
 - SSDT-PNLF.aml [밝기 제어]
 - SSDT-PRTSC-F13.aml [PrtScr 키를 F13 키로 맵핑]
 - SSDT-RMNE.aml [Null Ethernet]
@@ -96,6 +127,7 @@
 - SSDT-TYPC.aml ***[썬더볼트 3 모델 한정]***
 - SSDT-UIAC.aml [USB 맵핑]
 - SSDT-UPRW.aml [잠자기 상태에서 USB로 인한 깨우기 방지, 기타 USB 이슈 해결]
+- SSDT-XOSI.aml [밝기 제어 키를 위한 OS Check Fix]
 
 
 ## 클로버 ACPI 핫패치
@@ -105,6 +137,8 @@
 - change HECI to IMEI
 - change MEI to IMEI
 - change ECDV to EC [USB Fix]
+- change OSID to XSID [밝기 제어 키를 위한 OS Check Fix]
+- change \_OSI to XOSI [밝기 제어 키를 위한 OS Check Fix]
 - change UPRW to XPRW [잠자기 상태에서 USB로 인한 깨우기 방지]
 - change GPRW to YPRW [잠자기 상태에서 USB로 인한 깨우기 방지]
 - change \_RMV to XRMV [***썬더볼트 3 모델을*** 위한 Type C 핫 스왑 Fix]
@@ -218,8 +252,8 @@
 
 ***Fn 키***
 - 'Fn' + 'r' || PrtScr = F13
-- 'Fn' + 's' = F14 (밝기 감소)
-- 'Fn' + 'b' = F15 (밝기 증가)
+- 'Fn' + 'F11' || 'Fn' + 's' = F14 (밝기 감소)
+- 'Fn' + 'F12' || 'Fn' + 'b' = F15 (밝기 증가)
 - 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
 
 ***OSX Elcapitan 설치를 위한 준비***
