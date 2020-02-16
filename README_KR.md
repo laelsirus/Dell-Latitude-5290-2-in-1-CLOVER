@@ -152,6 +152,50 @@
 - brcmfx-country=#a [범용 국가 코드로 지정]
 
 
+## 클로버 Devices-Properties
+
+- 오디오 레이아웃 설정, 디스플레이 오디오 활성화
+```
+      <key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
+      <dict>
+        <key>device-id</key>
+        <data>cKEAAA==</data>
+        <key>layout-id</key>
+        <data>HgAAAA==</data>
+      </dict>
+```
+- Intel® UHD Graphics 620
+```
+      <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+      <dict>
+        <key>AAPL,GfxYTile</key>
+        <data>AQAAAA==</data>
+        <key>AAPL,ig-platform-id</key>
+        <data>AgAmWQ==</data>
+        <key>device-id</key>
+        <data>FlkAAA==</data>
+        <key>dpcd-max-link-rate</key>
+        <data>CgAAAA==</data>
+        <key>enable-dpcd-max-link-rate-fix</key>
+        <data>AQAAAA==</data>
+        <key>enable-hdmi20</key>
+        <data>AQAAAA==</data>
+        <key>framebuffer-con0-alldata</key>
+        <data>AAASAAIAAACYAAAAAQUSAAAEAADHAwAAAgQSAAAEAADHAwAA</data>
+        <key>framebuffer-con0-enable</key>
+        <data>AQAAAA==</data>
+        <key>framebuffer-fbmem</key>
+        <data>AACQAA==</data>
+        <key>framebuffer-patch-enable</key>
+        <data>AQAAAA==</data>
+        <key>framebuffer-stolenmem</key>
+        <data>AAAwAQ==</data>
+        <key>framebuffer-unifiedmem</key>
+        <data>AAAAgA==</data>
+      </dict>
+```
+
+
 ## ETC
 
 ***설치 이후***
