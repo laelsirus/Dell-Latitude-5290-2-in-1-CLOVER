@@ -59,7 +59,7 @@
                 }
 ```
 - ```XTBT (TBSE, CPGN)``` 를 ```XTB2 (TBSE, CPGN)``` 으로 찾아 바꾸기
-- 아래의 'Method (XTB2, 2)' 를 ```Method (XTBT, 2, Serialized)``` 직전에 추가
+- 아래의 값을 ```Method (XTBT, 2, Serialized)``` 직전에 추가
 ```
         Method (XTB2, 2)
         {

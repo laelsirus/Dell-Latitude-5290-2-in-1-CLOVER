@@ -58,16 +58,12 @@ to
                 }
 ```
 - Rename ```XTBT (TBSE, CPGN)``` to ```XTB2 (TBSE, CPGN)```
-- Add
+- Add this just before ```Method (XTBT, 2, Serialized)```
 ```
         Method (XTB2, 2)
         {
             XTBT (Arg0, Arg1)
         }
-```
-just before
-```
-        Method (XTBT, 2, Serialized)
 ```
 - [misc] Remove _PRW from LID
 - [sys] AC Adapter Fix
