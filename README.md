@@ -58,13 +58,15 @@ to
                 }
 ```
 - Rename ```XTBT (TBSE, CPGN)``` to ```XTB2 (TBSE, CPGN)```
-- Add 'Method (XTB2, 2)' just before ```Method (XTBT, 2, Serialized)```
+- Add
 ```
         Method (XTB2, 2)
         {
             XTBT (Arg0, Arg1)
         }
 ```
+just before
+```Method (XTBT, 2, Serialized)```
 - [misc] Remove _PRW from LID
 - [sys] AC Adapter Fix
 - [sys] Add IMEI
