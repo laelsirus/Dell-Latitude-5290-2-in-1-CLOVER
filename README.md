@@ -79,7 +79,7 @@ to
 - [sys] SMBUS Fix
 - [GPIO] GPIO Controller Enable [SKL+]
 - Rename ```HECI``` to ```IMEI```
-- Edit BRT6 Method  
+- Edit BRT6 method - control brightness with 'Fn + F11, Fn + F12' keys  
 
 from
 ```

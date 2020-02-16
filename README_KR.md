@@ -80,7 +80,7 @@
 - [sys] SMBUS Fix
 - [GPIO] GPIO Controller Enable [SKL+]
 - ```HECI``` 를 ```IMEI``` 으로 찾아 바꾸기
-- BRT6 Method 수정  
+- BRT6 Method 수정 - 'Fn + F11, Fn + F12' 키로 밝기 제어  
 
 수정 전
 ```
