@@ -66,7 +66,9 @@ to
         }
 ```
 just before
-```Method (XTBT, 2, Serialized)```
+```
+        Method (XTBT, 2, Serialized)
+```
 - [misc] Remove _PRW from LID
 - [sys] AC Adapter Fix
 - [sys] Add IMEI
