@@ -256,7 +256,7 @@
 - 'Fn' + 'F12' || 'Fn' + 'b' = F15 (밝기 증가)
 - 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
 
-***OSX Elcapitan 설치를 위한 준비***
+***OS X El Capitan 설치를 위한 준비***
 - FakeCPUID를 Skylake H로 추가 : 0x0506E3
 - SMBIOS 수정 : MacBookPro12,1
 - NVME를 위해 켁스트 추가 : HackrNVMeFamily-10_11_6.kext

@@ -256,7 +256,7 @@ But creating it for your system will help you manage power***
 - 'Fn' + 'F12' || 'Fn' + 'b' = F15 (Brightness up)
 - 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
 
-***For Install OSX Elcapitan***
+***For Install OS X El Capitan***
 - Add FakeCPUID;Skylake H : 0x0506E3
 - Edit SMBIOS : MacBookPro12,1
 - Add Kext for NVME : HackrNVMeFamily-10_11_6.kext
