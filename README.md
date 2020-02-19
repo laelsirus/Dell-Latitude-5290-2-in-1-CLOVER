@@ -233,7 +233,7 @@ But creating it for your system will help you manage power***
 ## ETC
 
 ***After Installation***
-- Remove these Boot Arguments
+- Remove these Boot Arguments  
     -v  
     debug=0x100  
     keepsyms=1
