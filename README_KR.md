@@ -113,6 +113,9 @@
         }
 ```
 
+***MaciASL 패치 소스가 필요합니다  
+_RehabMan Laptop [http://raw.github.com/RehabMan/Laptop-DSDT-Patch/master]  
+_VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]***  
 ***커널 패닉을 방지하기 위해 본인의 기기에서 DSDT를 추출하여 패치하는 것을 권장합니다***
 
 
