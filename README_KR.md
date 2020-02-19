@@ -146,11 +146,11 @@
 
 ## Drivers64UEFI
 
-- ApfsDriverLoader.efi
-- FwRuntimeServices.efi
-- OcQuirks.efi
-- VBoxHfs.efi
-- VirtualSmc.efi
+- ApfsDriverLoader.efi [acidanthera_AppleSupportPkg]
+- FwRuntimeServices.efi [ReddestDream_OcQuirks]
+- OcQuirks.efi [ReddestDream_OcQuirks]
+- VBoxHfs.efi [acidanthera_AppleSupportPkg]
+- VirtualSmc.efi [acidanthera_VirtualSMC]
 
 
 ## Kexts
