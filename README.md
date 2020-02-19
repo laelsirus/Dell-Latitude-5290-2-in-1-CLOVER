@@ -145,10 +145,10 @@ to
 
 ## Drivers64UEFI
 
-- ApfsDriverLoader-64.efi
+- ApfsDriverLoader.efi
 - FwRuntimeServices.efi
 - OcQuirks.efi
-- VBoxHfs-64.efi
+- VBoxHfs.efi
 - VirtualSmc.efi
 
 
