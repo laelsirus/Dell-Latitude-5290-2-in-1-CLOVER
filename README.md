@@ -129,7 +129,7 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 - SSDT-TYPC.aml ***[Only For Thunderbolt 3 Model]***
 - SSDT-UIAC.aml [USB Mapping]
 - SSDT-UPRW.aml [Prevent wake from USB, Fix some USB issues]
-- SSDT-XOSI.aml [OS Check Fix for Brightness Control Key]
+- SSDT-XOSI.aml [OS Check Fix for Brightness Control Key, Power Button, Touch Screen]
 
 
 ## CLOVER ACPI Hotpatch
@@ -258,7 +258,7 @@ But creating it for your system will help you manage power***
 - 'Fn' + 'F11' || 'Fn' + 's' = F14 (Brightness down)
 - 'Fn' + 'F12' || 'Fn' + 'b' = F15 (Brightness up)
 - 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
-- Press and hold the 'Power button; briefly to enter sleep mode
+- Press and hold the 'Power Button' for a short time to enter sleep, long press to display the power menu
 
 ***For Install OS X El Capitan***
 - Add FakeCPUID;Skylake H : 0x0506E3

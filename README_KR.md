@@ -130,7 +130,7 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 - SSDT-TYPC.aml ***[썬더볼트 3 모델 한정]***
 - SSDT-UIAC.aml [USB 맵핑]
 - SSDT-UPRW.aml [잠자기 상태에서 USB로 인한 깨우기 방지, 기타 USB 이슈 해결]
-- SSDT-XOSI.aml [밝기 제어 키를 위한 OS Check Fix]
+- SSDT-XOSI.aml [밝기 제어 키, 전원 버튼, 터치 스크린을 위한 OS Check Fix]
 
 
 ## 클로버 ACPI 핫패치
@@ -258,6 +258,7 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 - 'Fn' + 'F11' || 'Fn' + 's' = F14 (밝기 감소)
 - 'Fn' + 'F12' || 'Fn' + 'b' = F15 (밝기 증가)
 - 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
+- '전원 버튼'을 짧게 누르고 때면 잠자기 상태로 전환되고, 길게 누르면 전원 메뉴가 표시됩니다
 
 ***OS X El Capitan 설치를 위한 준비***
 - FakeCPUID를 Skylake H로 추가 : 0x0506E3
