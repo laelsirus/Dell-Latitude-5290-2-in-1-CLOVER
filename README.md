@@ -258,6 +258,7 @@ But creating it for your system will help you manage power***
 - 'Fn' + 'F11' || 'Fn' + 's' = F14 (Brightness down)
 - 'Fn' + 'F12' || 'Fn' + 'b' = F15 (Brightness up)
 - 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
+- Press and hold the 'Power button; briefly to enter sleep mode
 
 ***For Install OS X El Capitan***
 - Add FakeCPUID;Skylake H : 0x0506E3
