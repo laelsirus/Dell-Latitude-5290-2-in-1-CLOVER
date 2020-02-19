@@ -114,7 +114,7 @@ to
 
 ***Need theses MaciASL patch sources  
 _RehabMan Laptop [http://raw.github.com/RehabMan/Laptop-DSDT-Patch/master]  
-_VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]***
+_VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]***  
 ***Modify DSDT on your system to prevent kernel panic***
 
 
