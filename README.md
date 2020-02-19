@@ -112,8 +112,9 @@ to
         }
 ```
 
-***Need theses patch sources : _RehabMan Laptop, _VoodooI2C-Patches  
-[http://raw.github.com/RehabMan/Laptop-DSDT-Patch/master] [http://raw.github.com/alexandred/VoodooI2C-Patches/master]***
+***Need theses patch sources  
+_RehabMan Laptop [http://raw.github.com/RehabMan/Laptop-DSDT-Patch/master]  
+_VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]***
 ***Modify DSDT on your system to prevent kernel panic***
 
 
