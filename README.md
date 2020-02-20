@@ -257,7 +257,7 @@ But creating it for your system will help you manage power***
 - 'Fn' + 'r' || PrtScr = F13
 - 'Fn' + 'F11' || 'Fn' + 's' = F14 (Brightness down)
 - 'Fn' + 'F12' || 'Fn' + 'b' = F15 (Brightness up)
-- 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
+- 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
 - Press and hold the 'Power Button' for a short time to enter sleep, long press to display the power menu
 
 ***For Install OS X El Capitan***

@@ -257,7 +257,7 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 - 'Fn' + 'r' || PrtScr = F13
 - 'Fn' + 'F11' || 'Fn' + 's' = F14 (밝기 감소)
 - 'Fn' + 'F12' || 'Fn' + 'b' = F15 (밝기 증가)
-- 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
+- 'Fn' + 'Esc', 'F1', 'F2', 'F3', 'F4', 'F5', 'F6', 'F7', 'F10', 'PrtScr', 'Arrows'
 - '전원 버튼'을 짧게 누르고 때면 잠자기 상태로 전환되고, 길게 누르면 전원 메뉴가 표시됩니다
 
 ***OS X El Capitan 설치를 위한 준비***
