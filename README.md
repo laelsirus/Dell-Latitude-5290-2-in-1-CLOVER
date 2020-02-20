@@ -176,7 +176,7 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 - VirtualSMC.kext
 - VoodooI2C.kext
 - VoodooI2CHID.kext
-- VoodooPS2Controller.kext    -    Edit VoodooPS2Trackpad.kext's plist (ProductID:1218, VendorID:044E)
+- VoodooPS2Controller.kext
 - WhateverGreen.kext
 
 ***CPUFriend.kext, CPUFriendDataProvider.kext are not mandatory kext  
@@ -317,7 +317,7 @@ But creating it for your system will help you manage power***
 
 - Magic Trackpad 2 touch screen via VoodooI2C, VoodooI2CHID may not be recognized for new installations or OS updates  
   In this case touch screen works after kext cache rebuild [sudo kextcache -i /]  
-  After recognized the touch screen, the Alps touchpad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner  
+  After recognized the touch screen, the Alps Touchpad of the Magnetic Travel Keyboard is disabled, which can be activated using Karabiner  
   Check 'Alps Touchpad (Alps)' in 'Karabiner-Elements Preferences - Devices - Basic configuration'
 
 - MicroSD slot not working properly  

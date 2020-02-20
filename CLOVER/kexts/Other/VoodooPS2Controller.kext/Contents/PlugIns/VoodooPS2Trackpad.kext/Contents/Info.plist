@@ -424,11 +424,11 @@
 				</dict>
 			</dict>
 			<key>ProductID</key>
-			<integer>1218</integer>
+			<integer>547</integer>
 			<key>RM,deliverNotifications</key>
 			<true/>
 			<key>VendorID</key>
-			<integer>044E</integer>
+			<integer>1452</integer>
 		</dict>
 	</dict>
 	<key>OSBundleLibraries</key>
