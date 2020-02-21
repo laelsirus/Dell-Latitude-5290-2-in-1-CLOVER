@@ -122,13 +122,14 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 ## SSDT
 
 - SSDT-DEEPIDLE.aml ***[썬더볼트 3 모델 한정]***
-- SSDT-EC.aml [USB 전력 제어]
+- SSDT-EC-USBX.aml [USB 전력 제어]
+- SSDT-PLUG.aml [PluginType=1]
+- SSDT-PMC.aml [NVRAM]
 - SSDT-PNLF.aml [밝기 제어]
 - SSDT-PRTSC-F13.aml [PrtScr 키를 F13 키로 맵핑]
 - SSDT-RMNE.aml [Null Ethernet]
 - SSDT-TB3.aml ***[썬더볼트 3 모델 한정]***
 - SSDT-TYPC.aml ***[썬더볼트 3 모델 한정]***
-- SSDT-UIAC.aml [USB 맵핑]
 - SSDT-UPRW.aml [잠자기 상태에서 USB로 인한 깨우기 방지, 기타 USB 이슈 해결]
 - SSDT-XOSI.aml [밝기 제어 키, 전원 버튼, 터치 스크린을 위한 OS Check Fix]
 

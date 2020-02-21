@@ -121,13 +121,14 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 ## SSDT
 
 - SSDT-DEEPIDLE.aml ***[Only For Thunderbolt 3 Model]***
-- SSDT-EC.aml [USB Power Control]
+- SSDT-EC-USBX.aml [USB Power Control]
+- SSDT-PLUG.aml [PluginType=1]
+- SSDT-PMC.aml [NVRAM]
 - SSDT-PNLF.aml [Brightness Control]
 - SSDT-PRTSC-F13.aml [PrtScr Key to F13 Key]
 - SSDT-RMNE.aml [Null Ethernet]
 - SSDT-TB3.aml ***[Only For Thunderbolt 3 Model]***
 - SSDT-TYPC.aml ***[Only For Thunderbolt 3 Model]***
-- SSDT-UIAC.aml [USB Mapping]
 - SSDT-UPRW.aml [Prevent wake from USB, Fix some USB issues]
 - SSDT-XOSI.aml [OS Check Fix for Brightness Control Key, Power Button, Touch Screen]
 
