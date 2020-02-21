@@ -124,7 +124,6 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 - SSDT-DEEPIDLE.aml ***[썬더볼트 3 모델 한정]***
 - SSDT-EC-USBX.aml [USB 전력 제어]
 - SSDT-PLUG.aml [PluginType=1]
-- SSDT-PMC.aml [NVRAM]
 - SSDT-PNLF.aml [밝기 제어]
 - SSDT-PRTSC-F13.aml [PrtScr 키를 F13 키로 맵핑]
 - SSDT-RMNE.aml [Null Ethernet]
@@ -312,8 +311,8 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 
 - 썬더볼트 3 핫 스왑은 작동하지만 썬더볼트 3 기기가 연결 해제되었을 때 커널 패닉이 일어날 수 있습니다
 
-- SSDT-DEEPIDLE.aml는 썬더볼트 3 모델에서 Type C 를 통한 외부 기기의 핫 스왑을 가능하게 해줍니다
-  하지만 잠자기 전력 효율이 나빠집니다
+- SSDT-DEEPIDLE.aml는 썬더볼트 3 모델에서 Type C 를 통한 외부 기기의 핫 스왑을 가능하게 해줍니다  
+  하지만 잠자기 전력 효율이 나빠집니다  
   SSDT-DEEPIDLE.aml를 제거하면 Type C 핫 스왑이 중단되지만, 잠자기 전력 효율은 정상적으로 작동합니다
 
 - 매직 트랙패드 2 터치 스크린은 클린 설치 혹은 OS 업데이트 이후 인식되지 않을 수 있습니다  

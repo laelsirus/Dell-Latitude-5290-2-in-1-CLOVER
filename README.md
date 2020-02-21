@@ -123,7 +123,6 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 - SSDT-DEEPIDLE.aml ***[Only For Thunderbolt 3 Model]***
 - SSDT-EC-USBX.aml [USB Power Control]
 - SSDT-PLUG.aml [PluginType=1]
-- SSDT-PMC.aml [NVRAM]
 - SSDT-PNLF.aml [Brightness Control]
 - SSDT-PRTSC-F13.aml [PrtScr Key to F13 Key]
 - SSDT-RMNE.aml [Null Ethernet]
