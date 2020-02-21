@@ -177,7 +177,7 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 - VirtualSMC.kext
 - VoodooI2C.kext
 - VoodooI2CHID.kext
-- VoodooPS2Controller.kext
+- VoodooPS2Controller.kext    -    Remove /VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.*
 - WhateverGreen.kext
 
 ***CPUFriend.kext, CPUFriendDataProvider.kext are not mandatory kext  

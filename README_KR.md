@@ -178,7 +178,7 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 - VirtualSMC.kext
 - VoodooI2C.kext
 - VoodooI2CHID.kext
-- VoodooPS2Controller.kext
+- VoodooPS2Controller.kext    -    /VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.* 제거
 - WhateverGreen.kext
 
 ***CPUFriend.kext, CPUFriendDataProvider.kext는 필수 kext가 아니지만 본인의 시스템에 맞게 제작하면 전원 관리에 도움이 됩니다***
