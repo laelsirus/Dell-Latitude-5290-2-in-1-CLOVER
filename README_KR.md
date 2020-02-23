@@ -121,6 +121,7 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 
 ## SSDT
 
+- SSDT-ALC225.aml
 - SSDT-DEEPIDLE.aml ***[썬더볼트 3 모델 한정]***
 - SSDT-EC-USBX.aml [USB 전력 제어]
 - SSDT-PLUG.aml [PluginType=1]
@@ -163,7 +164,7 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 - BrcmBluetoothInjector.kext
 - BrcmFirmwareData.kext
 - BrcmPatchRAM3.kext
-- CodecCommander.kext    -    Codec Profile 추가, Custom Commands 수정
+- CodecCommander.kext
 - CPUFriend.kext
 - CPUFriendDataProvider.kext    -    stevezhengshiqi의 one-key-cpufriend를 이용하여 생성
 - EFICheckDisabler.kext

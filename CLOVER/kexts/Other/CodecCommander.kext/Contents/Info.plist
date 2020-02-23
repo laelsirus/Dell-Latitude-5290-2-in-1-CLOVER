@@ -54,8 +54,6 @@
 				<string>Disabled HDMI</string>
 				<key>10de</key>
 				<string>Disabled HDMI</string>
-				<key>10ec_0225</key>
-				<string>Realtek ALC225</string>
 				<key>10ec_0233</key>
 				<string>Realtek ALC283,etc</string>
 				<key>10ec_0235</key>
@@ -113,40 +111,6 @@
 					<false/>
 					<key>Update Nodes</key>
 					<false/>
-				</dict>
-				<key>Realtek ALC225</key>
-				<dict>
-					<key>Custom Commands</key>
-					<array>
-						<dict>
-							<key>Command</key>
-							<data>
-							AZcHIA==
-							</data>
-							<key>Comment</key>
-							<string>0x19 SET_PIN_WIDGET_CONTROL 0x20</string>
-							<key>On Init</key>
-							<true/>
-							<key>On Sleep</key>
-							<false/>
-							<key>On Wake</key>
-							<true/>
-						</dict>
-						<dict>
-							<key>Command</key>
-							<data>
-							AhcIgw==
-							</data>
-							<key>Comment</key>
-							<string>0x21 SET_UNSOLICITED_ENABLE 0x83</string>
-							<key>On Init</key>
-							<true/>
-							<key>On Sleep</key>
-							<false/>
-							<key>On Wake</key>
-							<true/>
-						</dict>
-					</array>
 				</dict>
 				<key>Realtek ALC1150</key>
 				<dict>

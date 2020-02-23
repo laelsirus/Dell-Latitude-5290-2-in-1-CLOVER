@@ -120,6 +120,7 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 
 ## SSDT
 
+- SSDT-ALC225.aml [Sleep Headphone Output Fix]
 - SSDT-DEEPIDLE.aml ***[Only For Thunderbolt 3 Model]***
 - SSDT-EC-USBX.aml [USB Power Control]
 - SSDT-PLUG.aml [PluginType=1]
@@ -162,7 +163,7 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 - BrcmBluetoothInjector.kext
 - BrcmFirmwareData.kext
 - BrcmPatchRAM3.kext
-- CodecCommander.kext    -    Add Codec Profile, Edit Custom Commands
+- CodecCommander.kext
 - CPUFriend.kext
 - CPUFriendDataProvider.kext    -    Generated with one-key-cpufriend by stevezhengshiqi
 - EFICheckDisabler.kext
@@ -341,7 +342,7 @@ But creating it for your system will help you manage power***
 
 ![06Geekbench_GPU](https://user-images.githubusercontent.com/46496967/60283649-a2d1e000-9944-11e9-847e-7d6399875ad6.png)
 
-**Origin USB Ports**
+**Original USB Ports**
 ![07USBOrigin](https://user-images.githubusercontent.com/46496967/60283654-a36a7680-9944-11e9-8ca0-efb77f46b023.png)
 
 **Edited USB Ports**
