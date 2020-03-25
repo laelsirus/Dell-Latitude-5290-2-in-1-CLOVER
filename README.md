@@ -17,7 +17,7 @@
 ## BIOS/Clover Bootloader/macOS Version
 
 - BIOS : 1.12.1
-- Clover Bootloader : Above v2.5k
+- Clover Bootloader : Above v5.0
 - macOS : 10.14.X, 10.15.X
 
 
