@@ -151,8 +151,8 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 ## Drivers64UEFI
 
 - ApfsDriverLoader.efi [acidanthera_AppleSupportPkg]
-- FwRuntimeServices.efi [ReddestDream_OcQuirks]
 - OcQuirks.efi [ReddestDream_OcQuirks]
+- OpenRuntime.efi [ReddestDream_OcQuirks]
 - VBoxHfs.efi [acidanthera_AppleSupportPkg]
 - VirtualSmc.efi [acidanthera_VirtualSMC]
 
