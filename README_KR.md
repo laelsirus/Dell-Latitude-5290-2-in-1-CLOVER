@@ -353,8 +353,6 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
 
 - I2C 전면/후면 카메라는 인식되지 않습니다 (AVStream2500, OV5670, OV8858)
 
-- FileVault2는 동작하지 않습니다
-
 
 ## Screenshots
 

@@ -353,8 +353,6 @@ But creating it for your system will help you manage power***
 
 - I2C front and rear camera (AVStream2500, OV5670, OV8858) not recognized
 
-- FileVault2 not works
-
 ## Screenshots
 
 ![01SystemOverview](https://user-images.githubusercontent.com/46496967/60284881-9ac76f80-9947-11e9-9127-c1dde7dc62b0.png)
