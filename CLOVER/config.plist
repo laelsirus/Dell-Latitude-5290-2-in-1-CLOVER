@@ -128,13 +128,13 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 brcmfx-country=#a</string>
+		<string>-v debug=0x100 keepsyms=1 dart=0 brcmfx-country=#a</string>
 		<key>DefaultVolume</key>
 		<string>macOS</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Timeout</key>
-		<integer>0</integer>
+		<integer>5</integer>
 		<key>XMPDetection</key>
 		<string>Yes</string>
 	</dict>
