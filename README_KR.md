@@ -195,13 +195,9 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
             <key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
             <dict>
                 <key>device-id</key>
-                <data>
-                cKEAAA==
-                </data>
+                <data>cKEAAA==</data>
                 <key>layout-id</key>
-                <data>
-                HgAAAA==
-                </data>
+                <data>HgAAAA==</data>
             </dict>
 ```
 - Intel® UHD Graphics 620
@@ -209,54 +205,29 @@ _VoodooI2C-Patches [http://raw.github.com/alexandred/VoodooI2C-Patches/master]**
             <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
             <dict>
                 <key>AAPL,GfxYTile</key>
-                <data>
-                AQAAAA==
-                </data>
+                <data>AQAAAA==</data>
                 <key>AAPL,ig-platform-id</key>
-                <data>
-                AgAmWQ==
-                </data>
+                <data>AgAmWQ==</data>
                 <key>device-id</key>
-                <data>
-                FlkAAA==
-                </data>
+                <data>FlkAAA==</data>
                 <key>dpcd-max-link-rate</key>
-                <data>
-                CgAAAA==
-                </data>
+                <data>CgAAAA==</data>
                 <key>enable-dpcd-max-link-rate-fix</key>
-                <data>
-                AQAAAA==
-                </data>
+                <data>AQAAAA==</data>
                 <key>enable-hdmi20</key>
-                <data>
-                AQAAAA==
-                </data>
+                <data>AQAAAA==</data>
                 <key>framebuffer-con0-alldata</key>
-                <data>
-                AAASAAIAAACYAAAAAQUSAAAEAADHAwAAAgQSAAAEAADH
-                AwAA
-                </data>
+                <data>AAASAAIAAACYAAAAAQUSAAAEAADHAwAAAgQSAAAEAADHAwAA</data>
                 <key>framebuffer-con0-enable</key>
-                <data>
-                AQAAAA==
-                </data>
+                <data>AQAAAA==</data>
                 <key>framebuffer-fbmem</key>
-                <data>
-                AACQAA==
-                </data>
+                <data>AACQAA==</data>
                 <key>framebuffer-patch-enable</key>
-                <data>
-                AQAAAA==
-                </data>
+                <data>AQAAAA==</data>
                 <key>framebuffer-stolenmem</key>
-                <data>
-                AAAwAQ==
-                </data>
+                <data>AAAwAQ==</data>
                 <key>framebuffer-unifiedmem</key>
-                <data>
-                AAAAgA==
-                </data>
+                <data>AAAAgA==</data>
             </dict>
 ```
 
